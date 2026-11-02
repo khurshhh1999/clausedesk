@@ -1,0 +1,84 @@
+{
+  "id": "ironclad-equipment",
+  "title": "EQUIPMENT LEASE AGREEMENT",
+  "parties": "Ironclad Equipment Leasing Co. / Demo Customer LLC",
+  "summary": "Five-year lease, no auto-renewal, unlimited liability, USD 480k",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Equipment Lease Agreement is between Ironclad Equipment Leasing Co., a Pennsylvania corporation with offices in Pittsburgh, Pennsylvania ('Ironclad'), and Demo Customer LLC ('Lessee'). Ironclad Equipment Leasing Co. is the lessor and vendor under this Agreement. The Effective Date is January 20, 2026. Lessee desires to lease industrial equipment listed on Schedule A. Ironclad represents it holds title to the equipment or has authority to lease it."
+      },
+      {
+        "heading": "Equipment and use",
+        "body": "Ironclad leases to Lessee the forklifts, conveyors, and related items described on Schedule A ('Equipment'). Lessee will use Equipment only at the facility address on Schedule A for lawful business operations, maintain Equipment in good working order ordinary wear excepted, and not alter Equipment without Ironclad's written consent. Lessee is responsible for operator training, daily inspections, and compliance with OSHA and local safety rules. Ironclad may inspect Equipment upon reasonable notice during business hours."
+      },
+      {
+        "heading": "Initial term and expiry",
+        "body": "The initial term of this lease is five (5) years beginning on the Effective Date. The lease ends at expiry on the last day of the fifth year unless the parties sign a new lease agreement before that date. This lease does not automatically renew; continuation after expiry requires a new signed lease executed by both parties. Lessee will return Equipment in good condition or pay stipulated loss values on Schedule B."
+      },
+      {
+        "heading": "Rent and total contract value",
+        "body": "Lessee will pay monthly rent per Schedule B. The total contract value over the initial term is USD 480,000 for all scheduled rent payments. Ironclad invoices monthly. Rent is due net thirty (30) days from invoice date. Late rent may incur a fee of one and one-half percent per month on overdue amounts. Payments must be made in United States dollars by ACH or check to the remittance address on the invoice."
+      },
+      {
+        "heading": "Maintenance and insurance",
+        "body": "Lessee will perform preventive maintenance per manufacturer guidelines and keep Equipment insured for full replacement value with Ironclad named as loss payee. Ironclad may provide optional maintenance plans under a separate order. Casualty loss or theft must be reported within five business days. Until replacement or repair, rent continues unless Equipment is totally destroyed and insurance proceeds are applied to Ironclad's satisfaction."
+      }
+    ],
+    [
+      {
+        "heading": "Termination",
+        "body": "Neither party may terminate this lease early for convenience; termination for convenience is explicitly unavailable to both lessor and lessee. Early termination is permitted only for material breach uncured thirty days after written notice, casualty loss handled under Schedule B, or mutual written agreement. Upon permitted termination, Lessee will pay accrued rent and return fees. Lessee remains liable for rent through the scheduled end date unless Ironclad relets Equipment and mitigates damages."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "The parties agree that lessee's and lessor's liability under this lease is not limited by any cap, floor, or aggregate maximum. No limitation of liability applies to either party for direct, indirect, incidental, or consequential damages to the fullest extent permitted by law, except where Pennsylvania law prohibits waiver. Each party expressly acknowledges that liability is unlimited and that no liability cap stated elsewhere controls."
+      },
+      {
+        "heading": "Confidentiality",
+        "body": "Each party may learn pricing, utilization, or facility information that is marked confidential or should reasonably be treated as confidential. The receiving party will not disclose such information except to advisors and employees who need it and are bound to confidentiality. General knowledge of equipment operation is not confidential. Obligations survive for two years after lease end."
+      },
+      {
+        "heading": "Governing law",
+        "body": "This lease is governed by the laws of the Commonwealth of Pennsylvania, without regard to conflict of laws rules. Venue lies in courts located in Allegheny County, Pennsylvania. Notices must be delivered by certified mail or courier to addresses on the signature page. This document is the entire agreement for the leased Equipment and supersedes prior quotes. Amendments require signed writing by authorized representatives of both parties."
+      },
+      {
+        "heading": "Execution",
+        "body": "Signature blocks are for authorized officers when a real lease is executed. This file is a fictional ClauseDesk demonstration sample only. Ironclad Equipment Leasing Co. and Demo Customer LLC are invented names. The text is not signed, not delivered, and creates no binding lease or other obligations. Do not rely on it for financing, insurance, or legal purposes."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Ironclad Equipment Leasing Co.",
+    "effective_date": "2026-01-20",
+    "initial_term": [
+      "5 years",
+      "five (5) years"
+    ],
+    "auto_renewal": false,
+    "renewal_notice_days": null,
+    "payment_terms": 30,
+    "total_contract_value": {
+      "amount": 480000,
+      "currency": "USD"
+    },
+    "termination_for_convenience": false,
+    "liability_cap": null,
+    "governing_law": "Pennsylvania",
+    "data_protection": null
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause identifies Ironclad Equipment Leasing Co. as lessor.",
+    "effective_date": "Parties and effective date clause states January 20, 2026.",
+    "initial_term": "Initial term and expiry clause, five (5) years.",
+    "auto_renewal": "Initial term and expiry clause, does not automatically renew.",
+    "renewal_notice_days": "Null because lease ends at expiry unless new lease signed; no day notice period.",
+    "payment_terms": "Rent and total contract value clause, net thirty (30) days.",
+    "total_contract_value": "Rent and total contract value clause, USD 480,000 total contract value.",
+    "termination_for_convenience": "Termination clause, neither party may terminate early for convenience.",
+    "liability_cap": "Limitation of liability clause states liability is not limited and no cap applies.",
+    "governing_law": "Governing law clause, Commonwealth of Pennsylvania.",
+    "data_protection": "Null; no personal data or data processing clause in the lease."
+  }
+}

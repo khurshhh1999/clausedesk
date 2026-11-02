@@ -1,82 +1,82 @@
 {
   "mode": "anthropic/claude-haiku-5.5",
-  "runAt": "2026-11-01T17:54:48.260Z",
+  "runAt": "2026-11-02T19:13:11.144Z",
   "metrics": {
-    "contracts": 14,
+    "contracts": 24,
     "fieldAccuracy": {
-      "correct": 147,
-      "total": 154,
-      "pct": 95.4
+      "correct": 257,
+      "total": 264,
+      "pct": 97.3
     },
     "presentFieldAccuracy": {
-      "correct": 94,
-      "total": 101,
-      "pct": 93
+      "correct": 188,
+      "total": 195,
+      "pct": 96.4
     },
     "notFoundRate": {
-      "correct": 53,
-      "total": 53,
+      "correct": 69,
+      "total": 69,
       "pct": 100
     },
     "citationsRejected": {
       "rejected": 0,
-      "of": 96
+      "of": 191
     }
   },
   "byField": {
     "vendor_name": {
-      "correct": 14,
-      "total": 14,
+      "correct": 24,
+      "total": 24,
       "pct": 100
     },
     "effective_date": {
-      "correct": 12,
-      "total": 14,
-      "pct": 85.7
+      "correct": 23,
+      "total": 24,
+      "pct": 95.8
     },
     "initial_term": {
-      "correct": 13,
-      "total": 14,
-      "pct": 92.8
+      "correct": 23,
+      "total": 24,
+      "pct": 95.8
     },
     "auto_renewal": {
-      "correct": 11,
-      "total": 14,
-      "pct": 78.5
+      "correct": 21,
+      "total": 24,
+      "pct": 87.5
     },
     "renewal_notice_days": {
-      "correct": 14,
-      "total": 14,
+      "correct": 24,
+      "total": 24,
       "pct": 100
     },
     "payment_terms": {
-      "correct": 14,
-      "total": 14,
+      "correct": 24,
+      "total": 24,
       "pct": 100
     },
     "total_contract_value": {
-      "correct": 14,
-      "total": 14,
+      "correct": 24,
+      "total": 24,
       "pct": 100
     },
     "termination_for_convenience": {
-      "correct": 14,
-      "total": 14,
+      "correct": 24,
+      "total": 24,
       "pct": 100
     },
     "liability_cap": {
-      "correct": 13,
-      "total": 14,
-      "pct": 92.8
+      "correct": 22,
+      "total": 24,
+      "pct": 91.6
     },
     "governing_law": {
-      "correct": 14,
-      "total": 14,
+      "correct": 24,
+      "total": 24,
       "pct": 100
     },
     "data_protection": {
-      "correct": 14,
-      "total": 14,
+      "correct": 24,
+      "total": 24,
       "pct": 100
     }
   },
@@ -90,7 +90,7 @@
           "key": "vendor_name",
           "expected": "Organic Preparations Inc.",
           "actual": {
-            "value": "ORGANIC PREPARATIONS INC.",
+            "value": "Organic Preparations INC.",
             "paragraph_id": "p-003",
             "quote": "ORGANIC PREPARATIONS INC.",
             "status": "found"
@@ -116,7 +116,7 @@
             "ten years"
           ],
           "actual": {
-            "value": "ten (10) years",
+            "value": "10 years",
             "paragraph_id": "p-003",
             "quote": "This agreement is for a term of ten (10) years.",
             "status": "found"
@@ -246,7 +246,7 @@
           "actual": {
             "value": "5 years",
             "paragraph_id": "p-016",
-            "quote": "The Contract is valid for 5 years, beginning from and ended on",
+            "quote": "The Contract is valid for 5 years, beginning from and ended on .",
             "status": "found"
           },
           "correct": true
@@ -355,7 +355,7 @@
           "actual": {
             "value": "Data Call Technologies, Inc.",
             "paragraph_id": "p-004",
-            "quote": "Data Call Technologies, Inc. 600 Kenrick, Suite B-12 Houston, Texas 77060",
+            "quote": "Data Call Technologies, Inc.",
             "status": "found"
           },
           "correct": true
@@ -364,12 +364,12 @@
           "key": "effective_date",
           "expected": "2006-04-01",
           "actual": {
-            "value": null,
-            "paragraph_id": null,
-            "quote": null,
-            "status": "not_found"
+            "value": "2006-04-01",
+            "paragraph_id": "p-095",
+            "quote": "Contract start: 04-01-06",
+            "status": "found"
           },
-          "correct": false
+          "correct": true
         },
         {
           "key": "initial_term",
@@ -377,7 +377,7 @@
           "actual": {
             "value": "24 months",
             "paragraph_id": "p-040",
-            "quote": "the term of this letter Agreement shall continue for twenty-four (24) months with the effective date",
+            "quote": "the term of this letter Agreement shall continue for twenty-four (24) months",
             "status": "found"
           },
           "correct": true
@@ -452,7 +452,7 @@
           "key": "governing_law",
           "expected": "United States of America",
           "actual": {
-            "value": "laws of the United States of America",
+            "value": "United States of America",
             "paragraph_id": "p-053",
             "quote": "This Agreement shall be governed and construed in accordance with the laws of the United States of America.",
             "status": "found"
@@ -482,8 +482,8 @@
           "expected": "Phoenix Satellite Television Company Limited",
           "actual": {
             "value": "Phoenix Satellite Television Company Limited",
-            "paragraph_id": "p-011",
-            "quote": "Phoenix Satellite Television Company Limited ( “ Party A ” or “ Phoenix Satellite TV ” ), a foreign enterprise duly established and validly existing under the laws of Hong Kong",
+            "paragraph_id": "p-004",
+            "quote": "Phoenix Satellite Television Company Limited",
             "status": "found"
           },
           "correct": true
@@ -492,18 +492,18 @@
           "key": "effective_date",
           "expected": "2009-11-24",
           "actual": {
-            "value": null,
-            "paragraph_id": null,
-            "quote": null,
-            "status": "not_found"
+            "value": "2009-11-24",
+            "paragraph_id": "p-010",
+            "quote": "entered into between the following two parties on November 24, 2009 in Beijing",
+            "status": "found"
           },
-          "correct": false
+          "correct": true
         },
         {
           "key": "initial_term",
           "expected": "5 years",
           "actual": {
-            "value": "5 years",
+            "value": "five (5) years",
             "paragraph_id": "p-095",
             "quote": "have a term of five (5) years commencing as of the effective date hereof",
             "status": "found"
@@ -614,7 +614,7 @@
           "actual": {
             "value": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY",
             "paragraph_id": "p-017",
-            "quote": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY",
+            "quote": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY, the organisation within the Xinhua News Agency",
             "status": "found"
           },
           "correct": true
@@ -623,18 +623,18 @@
           "key": "effective_date",
           "expected": "2000-05-18",
           "actual": {
-            "value": "2000-05-18",
-            "paragraph_id": "p-029",
-            "quote": "EFFECTIVE DATE means 18 May 2000;",
-            "status": "found"
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
           },
-          "correct": true
+          "correct": false
         },
         {
           "key": "initial_term",
           "expected": "20 years",
           "actual": {
-            "value": "twenty (20) years",
+            "value": "20 years",
             "paragraph_id": "p-087",
             "quote": "continue in full force and effect for twenty (20) years thereafter",
             "status": "found"
@@ -645,12 +645,12 @@
           "key": "auto_renewal",
           "expected": false,
           "actual": {
-            "value": false,
-            "paragraph_id": "p-088",
-            "quote": "This Agreement may be renewed for an additional term of ten (10) years by notice in writing given by XFN to CEIS at the expiry of the Term",
-            "status": "found"
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
           },
-          "correct": true
+          "correct": false
         },
         {
           "key": "renewal_notice_days",
@@ -686,7 +686,7 @@
               "currency": "USD"
             },
             "paragraph_id": "p-062",
-            "quote": "XFN shall pay to CEIS US$1.1 million",
+            "quote": "XFN shall pay to CEIS US$1.1 million (United States Dollars One Million and One",
             "status": "found"
           },
           "correct": true
@@ -770,7 +770,7 @@
           "actual": {
             "value": "December 31, 2020",
             "paragraph_id": "p-006",
-            "quote": "shall terminate on December 31, 2020",
+            "quote": "shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2",
             "status": "found"
           },
           "correct": true
@@ -825,7 +825,7 @@
           "actual": {
             "value": true,
             "paragraph_id": "p-006",
-            "quote": "may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause",
+            "quote": "Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause",
             "status": "found"
           },
           "correct": true
@@ -876,7 +876,7 @@
           "actual": {
             "value": "Idan Maimon",
             "paragraph_id": "p-001",
-            "quote": "between Idan Maimon (“Maimon”) and Intellisense Solutions, Inc., a Nevada corporation (the “Company”)",
+            "quote": "between Idan Maimon (“Maimon”) and Intellisense Solutions, Inc.",
             "status": "found"
           },
           "correct": true
@@ -898,7 +898,7 @@
           "actual": {
             "value": "12 months",
             "paragraph_id": "p-001",
-            "quote": "shall continue for a minimum period of 12 months (the “Minimum Period”)",
+            "quote": "shall continue for a minimum period of 12 months",
             "status": "found"
           },
           "correct": true
@@ -907,12 +907,12 @@
           "key": "auto_renewal",
           "expected": false,
           "actual": {
-            "value": null,
-            "paragraph_id": null,
-            "quote": null,
-            "status": "not_found"
+            "value": false,
+            "paragraph_id": "p-001",
+            "quote": "and thereafter upon the mutual agreement of the Company and Maimon",
+            "status": "found"
           },
-          "correct": false
+          "correct": true
         },
         {
           "key": "renewal_notice_days",
@@ -975,7 +975,7 @@
           "actual": {
             "value": "State of New York",
             "paragraph_id": "p-003",
-            "quote": "This Agreement shall be governed by and construed in accordance with the law of the State of New York without giving effect to the principles of conflicts of law thereof.",
+            "quote": "governed by and construed in accordance with the law of the State of New York",
             "status": "found"
           },
           "correct": true
@@ -1024,9 +1024,9 @@
           "key": "initial_term",
           "expected": "April 1, 2019 through March 30, 2020",
           "actual": {
-            "value": "12 months",
+            "value": "April 1st 2019 through to March 30, 2020",
             "paragraph_id": "p-001",
-            "quote": "1.5 “Service Period” means April. 1st 2019 through to March 30, 2020.",
+            "quote": "“Service Period” means April. 1st 2019 through to March 30, 2020.",
             "status": "found"
           },
           "correct": false
@@ -1224,7 +1224,7 @@
           "key": "liability_cap",
           "expected": "USD 48,000",
           "actual": {
-            "value": "aggregate liability capped at USD 48,000, except fraud or willful misconduct",
+            "value": "aggregate cap of USD 48,000, except fraud or willful misconduct",
             "paragraph_id": "p-015",
             "quote": "Each party's aggregate liability under this agreement is capped at USD 48,000, except for fraud or willful misconduct.",
             "status": "found"
@@ -1288,7 +1288,7 @@
           "actual": {
             "value": "12 months",
             "paragraph_id": "p-004",
-            "quote": "The initial term is 12 months, beginning on the Effective Date and ending on December 31, 2026.",
+            "quote": "The initial term is 12 months",
             "status": "found"
           },
           "correct": true
@@ -1310,7 +1310,7 @@
           "actual": {
             "value": 15,
             "paragraph_id": "p-005",
-            "quote": "unless either party gives written notice at least 15 days before the end of the then-current term.",
+            "quote": "at least 15 days before the end of the then-current term",
             "status": "found"
           },
           "correct": true
@@ -1390,6 +1390,146 @@
       ]
     },
     {
+      "id": "ashford-consulting",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Ashford & Pike Consulting Ltd",
+          "actual": {
+            "value": "Ashford & Pike Consulting Ltd",
+            "paragraph_id": "p-002",
+            "quote": "Ashford & Pike Consulting Ltd, a company registered in England and Wales with offices in London ('Ashford')",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-05-11",
+          "actual": {
+            "value": "2026-05-11",
+            "paragraph_id": "p-002",
+            "quote": "The Effective Date is May 11, 2026.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "12 months",
+            "twelve (12) months"
+          ],
+          "actual": {
+            "value": "twelve (12) months",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this Agreement is twelve (12) months beginning on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-004",
+            "quote": "this Agreement automatically renews for successive twelve (12) month terms on the same terms",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 45,
+          "actual": {
+            "value": 45,
+            "paragraph_id": "p-005",
+            "quote": "Customer must pay undisputed invoices within forty-five (45) days of receipt of each invoice.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 96000,
+            "currency": "GBP"
+          },
+          "actual": {
+            "value": {
+              "amount": 96000,
+              "currency": "GBP"
+            },
+            "paragraph_id": "p-005",
+            "quote": "The total contract value for the Initial Term is GBP 96,000 excluding VAT and pre-approved travel.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-009",
+            "quote": "Either party may terminate this Agreement for convenience upon thirty (30) days' prior written notice to the other party.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": [
+            "150 percent",
+            "150 percent of fees paid"
+          ],
+          "actual": {
+            "value": "150% of fees paid by Customer under the Agreement",
+            "paragraph_id": "p-010",
+            "quote": "Ashford's aggregate liability for all claims arising under or related to this Agreement is capped at one hundred fifty percent (150 percent) of fees paid by Customer under this Agreement.",
+            "status": "found"
+          },
+          "correct": false
+        },
+        {
+          "key": "governing_law",
+          "expected": "England and Wales",
+          "actual": {
+            "value": "England and Wales",
+            "paragraph_id": "p-015",
+            "quote": "This Agreement is governed by the laws of England and Wales, excluding conflict of law rules.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
       "id": "brightwell-saas",
       "source": "demo",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -1423,7 +1563,7 @@
             "twenty-four (24) months"
           ],
           "actual": {
-            "value": "twenty-four (24) months",
+            "value": "24 months",
             "paragraph_id": "p-004",
             "quote": "The initial term of this Agreement is twenty-four (24) months commencing on the Effective Date.",
             "status": "found"
@@ -1436,7 +1576,7 @@
           "actual": {
             "value": true,
             "paragraph_id": "p-005",
-            "quote": "this Agreement automatically renews for successive twelve (12) month renewal periods on the same terms",
+            "quote": "this Agreement automatically renews for successive twelve (12) month renewal periods on the same terms unless either party gives written notice of non-renewal",
             "status": "found"
           },
           "correct": true
@@ -1447,7 +1587,7 @@
           "actual": {
             "value": 60,
             "paragraph_id": "p-005",
-            "quote": "unless either party gives written notice of non-renewal at least sixty (60) days before the end of the then-current term.",
+            "quote": "at least sixty (60) days before the end of the then-current term.",
             "status": "found"
           },
           "correct": true
@@ -1499,7 +1639,7 @@
             "twelve (12) months"
           ],
           "actual": {
-            "value": "fees paid or payable in the twelve (12) months preceding the claim event",
+            "value": "aggregate cap at fees paid or payable in prior 12 months",
             "paragraph_id": "p-011",
             "quote": "each party's aggregate liability arising out of or related to this Agreement is capped at the fees paid or payable by Customer to Brightwell in the twelve (12) months immediately preceding the event giving rise to the claim.",
             "status": "found"
@@ -1541,7 +1681,7 @@
           "actual": {
             "value": "Copperfield Staffing LLC",
             "paragraph_id": "p-002",
-            "quote": "Copperfield Staffing LLC, a Texas limited liability company with its principal office in Austin ('Supplier')",
+            "quote": "entered into by Copperfield Staffing LLC, a Texas limited liability company with its principal office in Austin ('Supplier')",
             "status": "found"
           },
           "correct": true
@@ -1588,7 +1728,7 @@
           "actual": {
             "value": 10,
             "paragraph_id": "p-003",
-            "quote": "at least ten (10) days before the end of the then-current term",
+            "quote": "Unless either party delivers written notice of non-renewal at least ten (10) days before the end of the then-current term",
             "status": "found"
           },
           "correct": true
@@ -1701,7 +1841,7 @@
             "three (3) years"
           ],
           "actual": {
-            "value": "three (3) years",
+            "value": "3 years",
             "paragraph_id": "p-004",
             "quote": "The initial term of this Agreement is three (3) years beginning on the Effective Date.",
             "status": "found"
@@ -1753,7 +1893,7 @@
               "currency": "USD"
             },
             "paragraph_id": "p-005",
-            "quote": "The total contract value for committed services over the Initial Term is USD 1,200,000",
+            "quote": "The total contract value for committed services over the Initial Term is USD 1,200,000, subject to true-up for actual volumes within agreed bands.",
             "status": "found"
           },
           "correct": true
@@ -1773,7 +1913,7 @@
           "key": "liability_cap",
           "expected": "USD 2,000,000",
           "actual": {
-            "value": "Harborline aggregate liability capped at USD 2,000,000 in total",
+            "value": "USD 2,000,000 aggregate cap on Harborline's liability",
             "paragraph_id": "p-011",
             "quote": "Harborline's aggregate liability for all claims arising under or related to this Agreement is capped at USD 2,000,000 in total.",
             "status": "found"
@@ -1798,6 +1938,427 @@
             "value": true,
             "paragraph_id": "p-015",
             "quote": "Harborline processes personal data of shipment recipients, including names, addresses, and contact details, solely to deliver Customer orders and provide tracking notifications.",
+            "status": "found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ironclad-equipment",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Ironclad Equipment Leasing Co.",
+          "actual": {
+            "value": "Ironclad Equipment Leasing Co.",
+            "paragraph_id": "p-002",
+            "quote": "between Ironclad Equipment Leasing Co., a Pennsylvania corporation with offices in Pittsburgh, Pennsylvania ('Ironclad'), and Demo Customer LLC ('Lessee')",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-01-20",
+          "actual": {
+            "value": "2026-01-20",
+            "paragraph_id": "p-002",
+            "quote": "The Effective Date is January 20, 2026.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "5 years",
+            "five (5) years"
+          ],
+          "actual": {
+            "value": "five (5) years",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this lease is five (5) years beginning on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": false,
+          "actual": {
+            "value": false,
+            "paragraph_id": "p-004",
+            "quote": "This lease does not automatically renew; continuation after expiry requires a new signed lease executed by both parties.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 30,
+          "actual": {
+            "value": 30,
+            "paragraph_id": "p-005",
+            "quote": "Rent is due net thirty (30) days from invoice date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 480000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 480000,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-005",
+            "quote": "The total contract value over the initial term is USD 480,000 for all scheduled rent payments.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": false,
+          "actual": {
+            "value": false,
+            "paragraph_id": "p-008",
+            "quote": "Neither party may terminate this lease early for convenience; termination for convenience is explicitly unavailable to both lessor and lessee.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Pennsylvania",
+          "actual": {
+            "value": "Commonwealth of Pennsylvania",
+            "paragraph_id": "p-011",
+            "quote": "This lease is governed by the laws of the Commonwealth of Pennsylvania, without regard to conflict of laws rules.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lumen-analytics",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Lumen Analytics GmbH",
+          "actual": {
+            "value": "Lumen Analytics GmbH",
+            "paragraph_id": "p-002",
+            "quote": "entered into by Lumen Analytics GmbH, a company registered in Berlin, Germany ('Lumen')",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-04-01",
+          "actual": {
+            "value": "2026-04-01",
+            "paragraph_id": "p-002",
+            "quote": "The Effective Date is April 1, 2026.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "36 months",
+            "thirty-six (36) months"
+          ],
+          "actual": {
+            "value": "36 months",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this Agreement is thirty-six (36) months commencing on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-005",
+            "quote": "this Agreement automatically renews for successive twelve (12) month renewal periods",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 90,
+          "actual": {
+            "value": 90,
+            "paragraph_id": "p-005",
+            "quote": "at least ninety (90) days before the end of the then-current term",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 30,
+          "actual": {
+            "value": 30,
+            "paragraph_id": "p-006",
+            "quote": "Customer must pay undisputed invoices within net thirty (30) days of invoice date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 180000,
+            "currency": "EUR"
+          },
+          "actual": {
+            "value": {
+              "amount": 180000,
+              "currency": "EUR"
+            },
+            "paragraph_id": "p-006",
+            "quote": "The total contract value for the Initial Term is EUR 180,000 excluding VAT and approved pass-through costs.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-009",
+            "quote": "Customer may terminate this Agreement for convenience upon sixty (60) days' prior written notice to Lumen.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": [
+            "total fees paid",
+            "12 months",
+            "twelve (12) months"
+          ],
+          "actual": {
+            "value": "capped at fees paid by Customer in the 12 months before the claim event",
+            "paragraph_id": "p-010",
+            "quote": "Lumen's aggregate liability for all claims arising under or related to this Agreement is capped at the total fees paid by Customer to Lumen in the twelve (12) months immediately preceding the event giving rise to the claim.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": [
+            "Germany",
+            "Federal Republic of Germany"
+          ],
+          "actual": {
+            "value": "Federal Republic of Germany",
+            "paragraph_id": "p-016",
+            "quote": "This Agreement is governed by the laws of the Federal Republic of Germany, excluding conflict of law rules.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-014",
+            "quote": "Where Lumen processes personal data on Customer's behalf, Lumen acts as processor under Article 28 of the GDPR",
+            "status": "found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "maple-ridge-it",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Maple Ridge IT Services Corp.",
+          "actual": {
+            "value": "Maple Ridge IT Services Corp.",
+            "paragraph_id": "p-002",
+            "quote": "Maple Ridge IT Services Corp. is the vendor providing managed information technology helpdesk services under this Agreement.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-08-01",
+          "actual": {
+            "value": "2026-08-01",
+            "paragraph_id": "p-002",
+            "quote": "The Effective Date is August 1, 2026.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "36 months",
+            "thirty-six (36) months"
+          ],
+          "actual": {
+            "value": "thirty-six (36) months",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this Agreement is thirty-six (36) months beginning on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-004",
+            "quote": "this Agreement will automatically renew for successive twelve (12) month renewal terms",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 45,
+          "actual": {
+            "value": 45,
+            "paragraph_id": "p-004",
+            "quote": "at least forty-five (45) days before the end of the then-current term",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 30,
+          "actual": {
+            "value": 30,
+            "paragraph_id": "p-005",
+            "quote": "Invoices are due net thirty (30) days from invoice date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 540000,
+            "currency": "CAD"
+          },
+          "actual": {
+            "value": {
+              "amount": 540000,
+              "currency": "CAD"
+            },
+            "paragraph_id": "p-005",
+            "quote": "The total contract value for services committed over the initial term is CAD 540,000, excluding taxes and approved pass-through hardware purchases.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-008",
+            "quote": "Customer may terminate this Agreement for convenience upon ninety (90) days prior written notice to Maple Ridge.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": "fees paid in the 12 months preceding the claim",
+          "actual": {
+            "value": "aggregate liability capped at fees paid in the 12 months preceding the claim",
+            "paragraph_id": "p-009",
+            "quote": "Maple Ridge's aggregate liability for all claims arising under or related to this Agreement is capped at the fees paid in the 12 months preceding the claim.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": [
+            "Ontario",
+            "Province of Ontario"
+          ],
+          "actual": {
+            "value": "Province of Ontario and the federal laws of Canada applicable therein",
+            "paragraph_id": "p-012",
+            "quote": "This Agreement is governed by the laws of the Province of Ontario and the federal laws of Canada applicable therein, without regard to conflict-of-law rules.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-010",
+            "quote": "To the extent Maple Ridge processes personal information of Customer employees or contractors on Customer's behalf in delivering helpdesk services, Maple Ridge will comply with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial privacy laws.",
             "status": "found"
           },
           "correct": true
@@ -1838,7 +2399,7 @@
             "thirty-six (36) months"
           ],
           "actual": {
-            "value": "thirty-six (36) months",
+            "value": "36 months",
             "paragraph_id": "p-003",
             "quote": "The initial term of this Agreement is thirty-six (36) months",
             "status": "found"
@@ -1904,9 +2465,9 @@
           "key": "liability_cap",
           "expected": "USD 500,000",
           "actual": {
-            "value": "USD 500,000 aggregate cap on each party's liability",
+            "value": "Aggregate cap of USD 500,000 per party, with carve-outs for fraud and willful misconduct",
             "paragraph_id": "p-010",
-            "quote": "each party's aggregate liability arising out of or related to this Agreement shall not exceed USD 500,000",
+            "quote": "each party's aggregate liability arising out of or related to this Agreement shall not exceed USD 500,000.",
             "status": "found"
           },
           "correct": true
@@ -1917,7 +2478,7 @@
           "actual": {
             "value": "Province of Ontario and federal laws of Canada",
             "paragraph_id": "p-017",
-            "quote": "This Agreement is governed by the laws of the Province of Ontario and the federal laws of Canada applicable therein",
+            "quote": "This Agreement is governed by the laws of the Province of Ontario",
             "status": "found"
           },
           "correct": true
@@ -1930,6 +2491,826 @@
             "paragraph_id": "p-009",
             "quote": "Service Provider will act as a processor under Client's instructions",
             "status": "found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "northstar-security",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Northstar Security Services Inc.",
+          "actual": {
+            "value": "Northstar Security Services Inc.",
+            "paragraph_id": "p-002",
+            "quote": "Northstar Security Services Inc., an Illinois corporation based in Chicago, Illinois ('Northstar')",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-07-01",
+          "actual": {
+            "value": "2026-07-01",
+            "paragraph_id": "p-002",
+            "quote": "This Agreement is effective as of the first day of July, 2026.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "two years",
+            "2 years"
+          ],
+          "actual": {
+            "value": "two years",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this Agreement is two years beginning on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-004",
+            "quote": "this Agreement automatically renews for successive one-year periods",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 60,
+          "actual": {
+            "value": 60,
+            "paragraph_id": "p-004",
+            "quote": "at least sixty days before the end of the then-current term",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 30,
+          "actual": {
+            "value": 30,
+            "paragraph_id": "p-005",
+            "quote": "Invoices are payable within thirty days of invoice date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 312000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 312000,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-005",
+            "quote": "The total contract value for the initial term is three hundred and twelve thousand United States dollars",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-006",
+            "quote": "Customer may terminate this Agreement for convenience upon sixty days prior written notice to Northstar",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": [
+            "USD 1,000,000",
+            "one million United States dollars"
+          ],
+          "actual": {
+            "value": "aggregate cap of one million United States dollars",
+            "paragraph_id": "p-008",
+            "quote": "Northstar's aggregate liability for all claims arising under this Agreement is capped at one million United States dollars in the aggregate.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Illinois",
+          "actual": {
+            "value": "State of Illinois",
+            "paragraph_id": "p-011",
+            "quote": "This Agreement is governed by the laws of the State of Illinois, without regard to conflict of laws principles.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-009",
+            "quote": "Northstar processes personal data including visitor log entries, badge photos, and CCTV footage of Customer premises to provide security services.",
+            "status": "found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "orbit-telecom",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Orbit Telecom Solutions LLC",
+          "actual": {
+            "value": "Orbit Telecom Solutions LLC",
+            "paragraph_id": "p-002",
+            "quote": "Orbit Telecom Solutions LLC is the vendor providing enterprise connectivity and related telecommunications services under this MSA and applicable service schedules.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "36 months",
+            "thirty-six (36) months"
+          ],
+          "actual": {
+            "value": "thirty-six (36) months",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this MSA is thirty-six (36) months beginning on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-004",
+            "quote": "this MSA will automatically renew on a month-to-month basis unless either party gives written notice of non-renewal",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 60,
+          "actual": {
+            "value": 60,
+            "paragraph_id": "p-004",
+            "quote": "at least sixty (60) days before the end of the initial term",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 45,
+          "actual": {
+            "value": 45,
+            "paragraph_id": "p-005",
+            "quote": "Invoices are due net forty-five (45) days from invoice date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 864000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 864000,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-005",
+            "quote": "The total contract value for committed connectivity services over the initial term is USD 864,000",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": false,
+          "actual": {
+            "value": false,
+            "paragraph_id": "p-009",
+            "quote": "Neither party may terminate this MSA for convenience during the initial term.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": "two times the fees paid in the prior 12 months",
+          "actual": {
+            "value": "two times the fees paid in the prior 12 months",
+            "paragraph_id": "p-010",
+            "quote": "each party's aggregate liability arising out of or related to this MSA is capped at two times the fees paid in the prior 12 months.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Texas",
+          "actual": {
+            "value": "State of Texas",
+            "paragraph_id": "p-018",
+            "quote": "This MSA is governed by the laws of the State of Texas",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-011",
+            "quote": "Orbit Telecom may process Customer network data, including metadata and call detail records that contain personal data such as telephone numbers and call timestamps",
+            "status": "found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pacific-translation",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Pacific Bridge Translation Pte. Ltd.",
+          "actual": {
+            "value": "Pacific Bridge Translation Pte. Ltd.",
+            "paragraph_id": "p-002",
+            "quote": "Pacific Bridge Translation Pte. Ltd., a company incorporated in Singapore with offices in Singapore ('Pacific Bridge')",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-02-02",
+          "actual": {
+            "value": "2026-02-02",
+            "paragraph_id": "p-002",
+            "quote": "The Effective Date is February 2, 2026.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "12 months",
+            "twelve (12) months"
+          ],
+          "actual": {
+            "value": "twelve (12) months",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this Agreement is twelve (12) months starting on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-004",
+            "quote": "this Agreement will automatically renew for additional twelve (12) month periods",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 14,
+          "actual": {
+            "value": 14,
+            "paragraph_id": "p-004",
+            "quote": "at least fourteen (14) days before the end of the then-current term",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 21,
+          "actual": {
+            "value": 21,
+            "paragraph_id": "p-005",
+            "quote": "Invoices are payable within twenty-one (21) days of invoice date",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-008",
+            "quote": "Either party may terminate this Agreement for convenience upon thirty (30) days prior written notice to the other party.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": "fees paid for the specific translation job giving rise to the claim",
+          "actual": {
+            "value": "capped at fees paid for the specific translation job giving rise to the claim",
+            "paragraph_id": "p-009",
+            "quote": "Pacific Bridge's aggregate liability for all claims arising under or related to this Agreement is capped at the fees paid for the specific translation job giving rise to the claim.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Singapore",
+          "actual": {
+            "value": "Singapore",
+            "paragraph_id": "p-012",
+            "quote": "This Agreement is governed by the laws of Singapore",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-010",
+            "quote": "Pacific Bridge will process that personal data solely to perform translation services in accordance with Singapore's Personal Data Protection Act (PDPA).",
+            "status": "found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "quickserve-order-form",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "QuickServe Catering LLC",
+          "actual": {
+            "value": "QuickServe Catering LLC",
+            "paragraph_id": "p-002",
+            "quote": "QuickServe Catering LLC is the supplier under this Order Form.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-09-18",
+          "actual": {
+            "value": "2026-09-18",
+            "paragraph_id": "p-002",
+            "quote": "The event date is September 18, 2026, which is also the Effective Date of this Order Form.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 15,
+          "actual": {
+            "value": 15,
+            "paragraph_id": "p-004",
+            "quote": "Payment is due within fifteen (15) days of invoice date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 7850,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 7850,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-004",
+            "quote": "The total contract value for this event is USD 7,850",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "stratus-cloud",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Stratus Cloud Hosting Inc.",
+          "actual": {
+            "value": "Stratus Cloud Hosting Inc.",
+            "paragraph_id": "p-002",
+            "quote": "Stratus Cloud Hosting Inc., a Washington corporation with offices in Seattle, Washington ('Stratus')",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-06-01",
+          "actual": {
+            "value": "2026-06-01",
+            "paragraph_id": "p-002",
+            "quote": "The Effective Date is June 1, 2026.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "24 months",
+            "twenty-four (24) months"
+          ],
+          "actual": {
+            "value": "twenty-four (24) months",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this Agreement is twenty-four (24) months beginning on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-005",
+            "quote": "automatically renews for successive one-year periods on the same terms unless either party gives written notice of non-renewal",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 30,
+          "actual": {
+            "value": 30,
+            "paragraph_id": "p-005",
+            "quote": "at least thirty (30) days before the end of the then-current term",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 60,
+          "actual": {
+            "value": 60,
+            "paragraph_id": "p-006",
+            "quote": "Undisputed amounts are due net sixty (60) days from invoice date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 250000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 250000,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-006",
+            "quote": "The total contract value for the Initial Term is USD 250,000, inclusive of base hosting and standard support.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-008",
+            "quote": "Customer may terminate this Agreement for convenience upon ninety (90) days prior written notice to Stratus",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": [
+            "fees paid",
+            "12 months",
+            "twelve (12) months"
+          ],
+          "actual": {
+            "value": "Stratus's aggregate liability capped at fees paid in prior 12 months",
+            "paragraph_id": "p-009",
+            "quote": "Stratus's aggregate liability for all claims arising under or related to this Agreement is capped at the fees paid by Customer to Stratus in the twelve (12) months immediately preceding the event giving rise to the claim.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Washington",
+          "actual": {
+            "value": "State of Washington",
+            "paragraph_id": "p-012",
+            "quote": "This Agreement is governed by the laws of the State of Washington, without regard to conflict of laws principles.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-010",
+            "quote": "Where Stratus processes personal data on Customer's behalf in connection with hosting services, Stratus acts as processor",
+            "status": "found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vantage-media",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Vantage Media Partners LLC",
+          "actual": {
+            "value": "Vantage Media Partners LLC",
+            "paragraph_id": "p-002",
+            "quote": "Vantage Media Partners LLC is the vendor performing agency services under this Agreement.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-03-02",
+          "actual": {
+            "value": "2026-03-02",
+            "paragraph_id": "p-002",
+            "quote": "The Effective Date is March 2, 2026.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "12 months",
+            "twelve (12) months"
+          ],
+          "actual": {
+            "value": "twelve (12) months",
+            "paragraph_id": "p-004",
+            "quote": "The initial term of this Agreement is twelve (12) months commencing on the Effective Date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-004",
+            "quote": "this Agreement automatically renews for successive twelve (12) month terms",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 10,
+          "actual": {
+            "value": 10,
+            "paragraph_id": "p-004",
+            "quote": "at least ten (10) days before the end of the then-current term",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 90,
+          "actual": {
+            "value": 90,
+            "paragraph_id": "p-005",
+            "quote": "Customer must pay undisputed amounts within net ninety (90) days of invoice date.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 420000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 420000,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-005",
+            "quote": "The total contract value for the Initial Term is USD 420,000",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": false,
+          "actual": {
+            "value": false,
+            "paragraph_id": "p-009",
+            "quote": "Neither party may terminate this Agreement for convenience.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Texas",
+          "actual": {
+            "value": "State of Texas",
+            "paragraph_id": "p-015",
+            "quote": "This Agreement is governed by the laws of the State of Texas, without regard to conflict of laws principles.",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
           },
           "correct": true
         }

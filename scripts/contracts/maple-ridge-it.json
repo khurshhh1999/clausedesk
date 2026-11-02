@@ -1,0 +1,97 @@
+{
+  "id": "maple-ridge-it",
+  "title": "MANAGED IT HELPDESK SERVICES AGREEMENT",
+  "parties": "Maple Ridge IT Services Corp. / Demo Customer LLC",
+  "summary": "CAD 540k, Ontario PIPEDA, convenience termination with fee",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Managed IT Helpdesk Services Agreement is between Maple Ridge IT Services Corp., a corporation with principal offices in Toronto, Ontario ('Maple Ridge'), and Demo Customer LLC ('Customer'). Maple Ridge IT Services Corp. is the vendor providing managed information technology helpdesk services under this Agreement. The Effective Date is August 1, 2026. Each party represents it has authority to bind its organization. Customer designates a primary service manager for tickets and escalations."
+      },
+      {
+        "heading": "Scope of helpdesk services",
+        "body": "Maple Ridge will provide Tier 1 and Tier 2 end-user support, incident triage, remote troubleshooting, password resets, and standard software deployment assistance during the coverage hours in Exhibit A. Services exclude custom software development unless covered by a separate statement of work. Customer will maintain supported device inventories and provide timely access to systems needed for remediation. Maple Ridge may use qualified subcontractors subject to equivalent confidentiality and security obligations."
+      },
+      {
+        "heading": "Initial term and renewal",
+        "body": "The initial term of this Agreement is thirty-six (36) months beginning on the Effective Date. After the initial term, this Agreement will automatically renew for successive twelve (12) month renewal terms unless either party delivers written notice of non-renewal at least forty-five (45) days before the end of the then-current term. Renewal pricing may be adjusted annually per Exhibit B with ninety days advance notice. Non-renewal notices must be sent to the contract administrator listed on the signature page."
+      },
+      {
+        "heading": "Fees and total contract value",
+        "body": "Customer will pay the monthly service fees in Exhibit B for covered users and optional add-ons approved in writing. The total contract value for services committed over the initial term is CAD 540,000, excluding taxes and approved pass-through hardware purchases. Invoices are due net thirty (30) days from invoice date. Undisputed amounts not paid when due may incur interest at one percent per month. All fees are payable in Canadian dollars by electronic funds transfer to the account on the invoice."
+      },
+      {
+        "heading": "Service levels",
+        "body": "Maple Ridge will use commercially reasonable efforts to meet the response and resolution targets in Exhibit C for incidents logged through the designated portal. Planned maintenance windows will be announced at least forty-eight hours in advance except for emergency security patches. Customer will classify incidents accurately and provide reproduction steps when requested. Chronic SLA misses will be reviewed in quarterly service reviews with corrective action plans documented in writing."
+      }
+    ],
+    [
+      {
+        "heading": "Termination for convenience",
+        "body": "Customer may terminate this Agreement for convenience upon ninety (90) days prior written notice to Maple Ridge. Termination for convenience is available at any time during the initial term or any renewal term. Upon such termination, Customer will pay a termination fee equal to two months of service fees at the then-current monthly rate in Exhibit B, in addition to fees for services performed through the effective termination date. Maple Ridge will cooperate with an orderly transition of credentials and documentation."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for liabilities that cannot be limited by applicable law, Maple Ridge's aggregate liability for all claims arising under or related to this Agreement is capped at the fees paid in the 12 months preceding the claim. Neither party is liable for indirect, consequential, or lost profit damages. The cap applies collectively to contract, tort, and statutory claims. Customer must bring claims within twelve months of the event giving rise to the claim except where a longer period is required by law."
+      },
+      {
+        "heading": "Personal data and PIPEDA",
+        "body": "To the extent Maple Ridge processes personal information of Customer employees or contractors on Customer's behalf in delivering helpdesk services, Maple Ridge will comply with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial privacy laws. Maple Ridge will process personal data only on Customer instructions, limit access to authorized personnel, and notify Customer without undue delay of confirmed unauthorized access affecting Customer personal data. Exhibit D contains additional data processing terms."
+      },
+      {
+        "heading": "Confidentiality",
+        "body": "Each party may receive technical, financial, or operational information that is marked confidential or should reasonably be treated as confidential. The receiving party will not disclose such information except to personnel and advisors who need it for performance and who are bound to confidentiality. Confidentiality obligations survive three years after termination. Compelled disclosure is permitted with notice where legally allowed. General IT knowledge and publicly available documentation are not confidential."
+      },
+      {
+        "heading": "Governing law and notices",
+        "body": "Formal notices must be delivered by email with confirmation or by courier to the addresses on the signature page. This Agreement constitutes the entire understanding regarding managed helpdesk services and supersedes prior proposals. Amendments require signed authorization from both parties. This Agreement is governed by the laws of the Province of Ontario and the federal laws of Canada applicable therein, without regard to conflict-of-law rules. The parties attorn to the courts of Ontario for disputes."
+      }
+    ],
+    [
+      {
+        "heading": "Insurance and assignment",
+        "body": "Maple Ridge will maintain commercial general liability and cyber liability insurance at levels stated in Exhibit E and will provide certificates upon request. Neither party may assign this Agreement without prior written consent, except to a successor in a merger or sale of substantially all assets with notice. Unauthorized assignment is void. Customer remains responsible for maintaining its own backups unless a backup add-on is explicitly purchased under Exhibit B."
+      },
+      {
+        "heading": "Execution",
+        "body": "Authorized signatures below are placeholders for a live agreement. This document is a fictional sample contract prepared for ClauseDesk software demonstration and automated contract review testing only. Maple Ridge IT Services Corp. and Demo Customer LLC are fictitious parties. The text is not signed for delivery and is not intended to create binding legal obligations. Do not rely on this document for operational or legal decisions."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Maple Ridge IT Services Corp.",
+    "effective_date": "2026-08-01",
+    "initial_term": [
+      "36 months",
+      "thirty-six (36) months"
+    ],
+    "auto_renewal": true,
+    "renewal_notice_days": 45,
+    "payment_terms": 30,
+    "total_contract_value": {
+      "amount": 540000,
+      "currency": "CAD"
+    },
+    "termination_for_convenience": true,
+    "liability_cap": "fees paid in the 12 months preceding the claim",
+    "governing_law": [
+      "Ontario",
+      "Province of Ontario"
+    ],
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause names Maple Ridge IT Services Corp. as vendor.",
+    "effective_date": "Parties and effective date clause states Effective Date is August 1, 2026.",
+    "initial_term": "Initial term and renewal clause states thirty-six (36) months.",
+    "auto_renewal": "Initial term and renewal clause provides automatic twelve-month renewal terms.",
+    "renewal_notice_days": "Initial term and renewal clause requires notice at least forty-five (45) days before term end.",
+    "payment_terms": "Fees and total contract value clause states net thirty (30) days.",
+    "total_contract_value": "Fees and total contract value clause states total contract value is CAD 540,000.",
+    "termination_for_convenience": "Termination for convenience clause grants Customer termination for convenience on ninety days notice.",
+    "liability_cap": "Limitation of liability clause caps aggregate liability at fees paid in the 12 months preceding the claim.",
+    "governing_law": "Governing law and notices clause specifies Province of Ontario.",
+    "data_protection": "Personal data and PIPEDA clause covers processing under PIPEDA with Exhibit D."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "pacific-translation",
+  "title": "DOCUMENT TRANSLATION SERVICES AGREEMENT",
+  "parties": "Pacific Bridge Translation Pte. Ltd. / Demo Customer LLC",
+  "summary": "14-day renewal notice, per-word SGD rates, PDPA",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Document Translation Services Agreement is entered into by Pacific Bridge Translation Pte. Ltd., a company incorporated in Singapore with offices in Singapore ('Pacific Bridge'), and Demo Customer LLC ('Customer'). Pacific Bridge Translation Pte. Ltd. is the vendor supplying professional translation and localization services under this Agreement. The Effective Date is February 2, 2026. Each party confirms it has obtained internal authorization to enter this Agreement."
+      },
+      {
+        "heading": "Translation services scope",
+        "body": "Pacific Bridge will translate written materials from source languages into target languages listed in Exhibit 1 using qualified linguists. Services include translation, bilingual review, and formatting consistent with Customer style guides when provided. Rush delivery, desktop publishing, and machine translation post-editing are available at rates in Exhibit 2 when requested in writing. Customer will supply clean source files and reference terminology. Pacific Bridge may decline content that violates law or its ethical guidelines after notice."
+      },
+      {
+        "heading": "Initial term and renewal",
+        "body": "The initial term of this Agreement is twelve (12) months starting on the Effective Date. Upon expiration of the initial term or any renewal term, this Agreement will automatically renew for additional twelve (12) month periods unless either party gives written notice of non-renewal at least fourteen (14) days before the end of the then-current term. Renewal continues the rate card in Exhibit 2 unless both parties sign an updated rate schedule. Non-renewal notices must be emailed to the contract administrator on the signature page."
+      },
+      {
+        "heading": "Rates and payment",
+        "body": "Customer will pay per-word translation fees and review fees according to Exhibit 2 based on actual word counts in delivered files. Volumes are not committed; Customer may submit projects opportunistically without minimum purchase obligations. Invoices are payable within twenty-one (21) days of invoice date in Singapore dollars by wire transfer. Disputed line items must be raised within ten business days; undisputed amounts remain due on schedule. Pacific Bridge may suspend new project starts for overdue undisputed balances after notice."
+      },
+      {
+        "heading": "Quality and acceptance",
+        "body": "Pacific Bridge will deliver translations with linguistic review per Exhibit 1 quality tier selected for each project. Customer may request corrections for objective errors within five business days of delivery. Subjective stylistic preferences require change orders. Accepted deliverables are deemed accepted if Customer uses them externally or does not respond within the review window. Recurring quality issues will be addressed in quarterly business reviews with root-cause analysis."
+      }
+    ],
+    [
+      {
+        "heading": "Termination for convenience",
+        "body": "Either party may terminate this Agreement for convenience upon thirty (30) days prior written notice to the other party. Termination for convenience does not affect fees for translation work already performed or in progress under approved purchase orders. Pacific Bridge will deliver completed files and work-in-progress materials through the effective termination date. Customer will pay for words translated and review completed through termination. Surviving provisions include payment, confidentiality, limitation of liability, and governing law."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for liability that cannot be limited by applicable law, Pacific Bridge's aggregate liability for all claims arising under or related to this Agreement is capped at the fees paid for the specific translation job giving rise to the claim. Neither party is liable for indirect, consequential, or lost profit damages. Customer must notify Pacific Bridge of any claim within thirty days of discovering the issue related to a delivered file. The cap applies to all theories of liability collectively for that job."
+      },
+      {
+        "heading": "Personal data and PDPA",
+        "body": "When source or reference materials contain personal data of Customer employees, customers, or third parties, Pacific Bridge will process that personal data solely to perform translation services in accordance with Singapore's Personal Data Protection Act (PDPA). Pacific Bridge will restrict access to assigned linguists under confidentiality duties, store files on secured systems, and notify Customer without undue delay of confirmed unauthorized access affecting such personal data. Customer represents it has lawful grounds to provide the materials."
+      },
+      {
+        "heading": "Confidentiality",
+        "body": "Each party may receive non-public business information marked confidential or reasonably understood to be confidential. The receiving party will use confidential information only to perform this Agreement and will not disclose it except to personnel and advisors under confidentiality obligations. Translation memories and glossaries owned by Customer remain Customer property. Confidentiality survives three years after termination. Required legal disclosures are permitted with notice where allowed."
+      },
+      {
+        "heading": "Governing law",
+        "body": "This Agreement is governed by the laws of Singapore without regard to conflict-of-law principles that would apply another jurisdiction. The parties submit to the exclusive jurisdiction of the courts of Singapore for disputes arising out of this Agreement, subject to either party seeking interim injunctive relief elsewhere when necessary. Notices must be sent by email with confirmation or courier to addresses on the signature page. Amendments require written agreement signed by authorized representatives."
+      }
+    ],
+    [
+      {
+        "heading": "Execution",
+        "body": "Signature lines below are illustrative only. This Agreement is a fictional sample document created for ClauseDesk software demonstration and contract review automation testing. Pacific Bridge Translation Pte. Ltd. and Demo Customer LLC are fictitious entities used as demo data. The document is not executed for legal purposes and does not create binding obligations between any real parties. Do not use this text for commercial or legal reliance."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Pacific Bridge Translation Pte. Ltd.",
+    "effective_date": "2026-02-02",
+    "initial_term": [
+      "12 months",
+      "twelve (12) months"
+    ],
+    "auto_renewal": true,
+    "renewal_notice_days": 14,
+    "payment_terms": 21,
+    "total_contract_value": null,
+    "termination_for_convenience": true,
+    "liability_cap": "fees paid for the specific translation job giving rise to the claim",
+    "governing_law": "Singapore",
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause identifies Pacific Bridge Translation Pte. Ltd. as vendor.",
+    "effective_date": "Parties and effective date clause states Effective Date is February 2, 2026.",
+    "initial_term": "Initial term and renewal clause states twelve (12) months.",
+    "auto_renewal": "Initial term and renewal clause provides automatic twelve-month renewal periods.",
+    "renewal_notice_days": "Initial term and renewal clause requires non-renewal notice at least fourteen (14) days before term end.",
+    "payment_terms": "Rates and payment clause requires payment within twenty-one (21) days of invoice date.",
+    "total_contract_value": "Rates and payment clause states per-word fees only and volumes are not committed; no total contract value.",
+    "termination_for_convenience": "Termination for convenience clause allows either party to terminate on thirty days notice.",
+    "liability_cap": "Limitation of liability clause caps liability at fees paid for the specific translation job giving rise to the claim.",
+    "governing_law": "Governing law clause specifies laws of Singapore.",
+    "data_protection": "Personal data and PDPA clause covers processing under Singapore PDPA."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "lumen-analytics",
+  "title": "DATA ANALYTICS SUBSCRIPTION AGREEMENT",
+  "parties": "Lumen Analytics GmbH / Demo Customer LLC",
+  "summary": "EUR SaaS, 36-month term, 90-day renewal notice, GDPR processor terms",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Data Analytics Subscription Agreement is entered into by Lumen Analytics GmbH, a company registered in Berlin, Germany ('Lumen'), and Demo Customer LLC ('Customer'). Lumen Analytics GmbH is the vendor supplying the subscription platform and related analytics services. The Effective Date is April 1, 2026. Each party represents that it has authority to bind its organization. This Agreement includes exhibits incorporated by reference and supersedes prior proposals on the same subject matter."
+      },
+      {
+        "heading": "Scope of analytics services",
+        "body": "Lumen will provide Customer with access to the Lumen Insight Platform, including hosted dashboards, data connectors, scheduled reports, and standard user support during business hours in Central European Time. Customer may authorize users listed on its account subject to license limits in Exhibit A. Lumen may apply maintenance windows with at least five business days' notice except for emergency security patches. Customer is responsible for its data sources, credentials, and lawful use. Professional services outside the subscription require a separate statement of work."
+      },
+      {
+        "heading": "Initial subscription term",
+        "body": "The initial term of this Agreement is thirty-six (36) months commencing on the Effective Date. During the Initial Term, Lumen will make the subscribed modules available per the service description in Exhibit A. Customer may add capacity through order forms Lumen accepts. If Customer materially exceeds licensed usage, the parties will negotiate a good-faith adjustment before Lumen suspends access for non-compliance."
+      },
+      {
+        "heading": "Automatic renewal and notice",
+        "body": "Upon expiration of the Initial Term, this Agreement automatically renews for successive twelve (12) month renewal periods on the same terms unless either party gives written notice of non-renewal at least ninety (90) days before the end of the then-current term. Non-renewal notice must identify the account and the term end date. Renewal fees follow Exhibit B unless adjusted by written amendment signed by both parties."
+      },
+      {
+        "heading": "Fees and total contract value",
+        "body": "Customer will pay fees in Exhibit B. The total contract value for the Initial Term is EUR 180,000 excluding VAT and approved pass-through costs. Lumen will invoice monthly in arrears unless another schedule is listed on an order form. Customer must pay undisputed invoices within net thirty (30) days of invoice date. Late amounts may accrue interest at one percent per month or the maximum permitted by law, whichever is lower."
+      }
+    ],
+    [
+      {
+        "heading": "Service levels and support",
+        "body": "Lumen targets monthly platform availability of 99.5 percent excluding scheduled maintenance and force majeure events. Support requests are triaged by severity with initial response targets of one business day for standard issues. Service credits for chronic availability failures are described in Exhibit C and are Customer's sole remedy for service level breaches. Customer will provide reasonable diagnostic information and a single point of contact for escalations."
+      },
+      {
+        "heading": "Termination for convenience",
+        "body": "Customer may terminate this Agreement for convenience upon sixty (60) days' prior written notice to Lumen. Termination for convenience does not relieve Customer of payment obligations for fees accrued before the effective date of termination. Lumen may terminate only for uncured material breach as stated elsewhere. Upon termination, Lumen will provide a data export in a standard format for thirty days. Surviving sections include confidentiality, data protection, limitation of liability, and governing law."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for liabilities that cannot be limited by applicable law, Lumen's aggregate liability for all claims arising under or related to this Agreement is capped at the total fees paid by Customer to Lumen in the twelve (12) months immediately preceding the event giving rise to the claim. Neither party is liable for indirect, incidental, special, or consequential damages, including lost profits, even if advised of the possibility. Fraud and willful misconduct are excluded from these limits where not prohibited by law."
+      },
+      {
+        "heading": "Confidentiality",
+        "body": "Each party may receive non-public information marked confidential or reasonably understood to be confidential. The receiving party will use such information only to perform under this Agreement and protect it with at least the same care it uses for its own confidential materials. Disclosure is permitted to personnel and advisors with a need to know who are bound by similar obligations. Compelled disclosures require prompt notice where legally allowed. Obligations survive for three years after termination."
+      },
+      {
+        "heading": "Intellectual property",
+        "body": "Lumen retains all rights in the platform, models, documentation, and pre-existing materials. Customer retains all rights in data it uploads and in its trademarks and content. Lumen receives a limited license to host, process, and display Customer data solely to provide the services. Customer grants no ownership interest in its data. Feedback may be used by Lumen without restriction or compensation. Customer will not reverse engineer the service except where statutory rights apply."
+      }
+    ],
+    [
+      {
+        "heading": "Data protection and processing",
+        "body": "Where Lumen processes personal data on Customer's behalf, Lumen acts as processor under Article 28 of the GDPR and will process personal data only on documented instructions from Customer, implement appropriate technical and organizational measures, maintain a written list of sub-processors with prior notice of material changes, and assist Customer with data subject requests where feasible. Lumen will notify Customer without undue delay and within forty-eight (48) hours after becoming aware of a personal data breach affecting Customer data. Customer is controller and warrants lawful grounds for processing."
+      },
+      {
+        "heading": "Insurance and assignment",
+        "body": "Lumen will maintain commercial general liability and cyber liability insurance with reputable carriers in amounts customary for analytics providers of similar size. Certificates are available upon reasonable request. Neither party may assign this Agreement without the other's consent, except to an affiliate or successor in a merger or sale of substantially all assets, provided the assignee assumes obligations in writing. Any prohibited assignment is void."
+      },
+      {
+        "heading": "Notices and governing law",
+        "body": "Notices must be in writing and sent to the addresses on the signature page or updated by written notice. Email is sufficient for operational notices if receipt is confirmed. This Agreement is the entire agreement and supersedes prior discussions on the same subject. Amendments require signed writing by authorized representatives. This Agreement is governed by the laws of the Federal Republic of Germany, excluding conflict of law rules. Courts in Berlin have exclusive jurisdiction, subject to either party's right to seek injunctive relief elsewhere."
+      },
+      {
+        "heading": "Execution",
+        "body": "Authorized signatories may execute this Agreement when the parties intend to be bound. This document is a fictional sample created solely for ClauseDesk software demonstration and automated contract review testing. Lumen Analytics GmbH and Demo Customer LLC are fictitious parties. The text is not signed, not delivered, and not intended to create binding legal obligations. Do not use this document for operational, business, or legal reliance."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Lumen Analytics GmbH",
+    "effective_date": "2026-04-01",
+    "initial_term": [
+      "36 months",
+      "thirty-six (36) months"
+    ],
+    "auto_renewal": true,
+    "renewal_notice_days": 90,
+    "payment_terms": 30,
+    "total_contract_value": {
+      "amount": 180000,
+      "currency": "EUR"
+    },
+    "termination_for_convenience": true,
+    "liability_cap": [
+      "total fees paid",
+      "12 months",
+      "twelve (12) months"
+    ],
+    "governing_law": [
+      "Germany",
+      "Federal Republic of Germany"
+    ],
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause names Lumen Analytics GmbH as vendor.",
+    "effective_date": "Parties and effective date clause states April 1, 2026.",
+    "initial_term": "Initial subscription term clause, thirty-six (36) months sentence.",
+    "auto_renewal": "Automatic renewal and notice clause, successive twelve (12) month renewals.",
+    "renewal_notice_days": "Automatic renewal and notice clause, ninety (90) days before term end.",
+    "payment_terms": "Fees and total contract value clause, net thirty (30) days.",
+    "total_contract_value": "Fees and total contract value clause, EUR 180,000 total contract value.",
+    "termination_for_convenience": "Termination for convenience clause, sixty (60) days notice by Customer.",
+    "liability_cap": "Limitation of liability clause, cap at fees paid in twelve (12) months preceding the claim.",
+    "governing_law": "Notices and governing law clause, laws of the Federal Republic of Germany.",
+    "data_protection": "Data protection and processing clause, Article 28 processor role and forty-eight (48) hour breach notice."
+  }
+}

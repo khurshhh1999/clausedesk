@@ -1,0 +1,59 @@
+{
+  "id": "quickserve-order-form",
+  "title": "ORDER FORM",
+  "parties": "QuickServe Catering LLC / Demo Customer LLC",
+  "summary": "One-day event catering, USD 7,850 fixed price, net 15 payment",
+  "pages": [
+    [
+      {
+        "heading": "Vendor and event",
+        "body": "QuickServe Catering LLC ('QuickServe'), a catering vendor, will provide food and beverage service for Demo Customer LLC's one-day company event on September 18, 2026 at the venue address Customer provides. QuickServe Catering LLC is the supplier under this Order Form. The event date is September 18, 2026, which is also the Effective Date of this Order Form. Service includes lunch buffet, beverages, and standard staffing for up to one hundred fifty guests unless Customer changes headcount in writing at least five business days before the event."
+      },
+      {
+        "heading": "Menu and service",
+        "body": "Menu selections are listed on Attachment 1. QuickServe will set up serving lines, maintain safe holding temperatures, and remove service ware at end of the event window. Customer will provide access to loading dock, power, and hand-washing facilities. Changes to menu or guest count within five business days may incur rush fees. QuickServe is not responsible for venue restrictions imposed by the facility owner."
+      },
+      {
+        "heading": "Price and payment",
+        "body": "The total contract value for this event is USD 7,850, inclusive of food, labor, and standard rentals listed on Attachment 1. QuickServe will invoice after the event. Payment is due within fifteen (15) days of invoice date. Undisputed amounts not paid when due may incur a late fee of one percent per month. Customer will pay in United States dollars by check or ACH to the account on the invoice."
+      },
+      {
+        "heading": "Cancellation",
+        "body": "If Customer cancels more than fourteen days before the event, Customer pays fifty percent of the total contract value. If Customer cancels within fourteen days, Customer pays the full total contract value unless QuickServe relets the date. QuickServe may substitute comparable menu items if supply issues occur, with prompt notice to Customer."
+      },
+      {
+        "heading": "Execution",
+        "body": "This Order Form is a fictional ClauseDesk demo document. QuickServe Catering LLC and Demo Customer LLC are fictitious parties. It is not executed, not binding, and intended only to illustrate contract review workflows. Do not use for real events or legal reliance."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "QuickServe Catering LLC",
+    "effective_date": "2026-09-18",
+    "initial_term": null,
+    "auto_renewal": null,
+    "renewal_notice_days": null,
+    "payment_terms": 15,
+    "total_contract_value": {
+      "amount": 7850,
+      "currency": "USD"
+    },
+    "termination_for_convenience": null,
+    "liability_cap": null,
+    "governing_law": null,
+    "data_protection": null
+  },
+  "notes": {
+    "vendor_name": "Vendor and event clause names QuickServe Catering LLC as supplier.",
+    "effective_date": "Vendor and event clause, event date September 18, 2026 as Effective Date.",
+    "initial_term": "Null; one-day event with no stated contract term.",
+    "auto_renewal": "Null; no renewal language in the Order Form.",
+    "renewal_notice_days": "Null; no renewal or non-renewal notice period stated.",
+    "payment_terms": "Price and payment clause, fifteen (15) days of invoice date.",
+    "total_contract_value": "Price and payment clause, USD 7,850 total contract value.",
+    "termination_for_convenience": "Null; only event cancellation fees stated, not convenience termination.",
+    "liability_cap": "Null; no limitation of liability clause.",
+    "governing_law": "Null; no governing law clause.",
+    "data_protection": "Null; no personal data processing clause."
+  }
+}

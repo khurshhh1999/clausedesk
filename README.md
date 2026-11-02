@@ -52,20 +52,35 @@ Built with Next.js (App Router), TypeScript, Tailwind, the Anthropic SDK, `unpdf
 
 ## Evaluation
 
-`npm run eval` runs the extractor over 14 labelled contracts: 8 public agreements from CUAD and 6 fictional demo contracts. Each contract has 11 fields, 154 in total. For 53 of them the correct answer is "not stated".
+`npm run eval` runs the extractor over 24 labelled contracts: 8 public agreements from CUAD and 16 fictional demo contracts. Each contract has 11 fields, 264 in total. For 69 of them the correct answer is "not stated".
+
+The demo contracts are written to probe specific behaviour:
+- currencies other than USD (EUR, GBP, CAD, SGD) and non-US law
+- a renewal notice given in months, which must not be converted to days
+- values sitting exactly on each policy threshold
+- liability stated as unlimited
+- a one-page order form
+- numbers written only in words
+- an effective date that depends on two different signature dates
+- a contract containing a planted instruction telling the reviewer to report false terms
 
 | | Claude Haiku 5.5 | Pattern baseline |
 | --- | --- | --- |
-| Field accuracy | **147 / 154 (95.4%)** | 78 / 154 (50.6%) |
-| Fields present in the contract | 94 / 101 (93.0%) | 25 / 101 (24.7%) |
-| Correctly returned `not_found` | 53 / 53 (100%) | 53 / 53 (100%) |
-| Citations rejected by the check | 0 of 96 | 0 of 25 |
+| Field accuracy | **257 / 264 (97.3%)** | 111 / 264 (42.0%) |
+| Fields present in the contract | 188 / 195 (96.4%) | 42 / 195 (21.5%) |
+| Correctly returned `not_found` | 69 / 69 (100%) | 69 / 69 (100%) |
+| Citations rejected by the check | 0 of 191 | 0 of 42 |
 
-The baseline is the offline regex extractor the app falls back to without an API key (`npm run eval:baseline`). Percentages are truncated, not rounded. The Haiku run cost about $0.03 for all 14 contracts through OpenRouter.
+The baseline is the offline regex extractor the app falls back to without an API key (`npm run eval:baseline`). Percentages are truncated, not rounded. A full Haiku run costs about $0.05 through OpenRouter.
 
-All seven misses are on CUAD contracts. On three contracts where renewal requires both parties to agree, the model returned "not found" for auto-renewal instead of "no". On two contracts it also missed the effective date. Twice it gave a wrong value: "12 months" for a term written as a date range, and a liability cap with the right meaning but different wording, which the text matcher counts as wrong.
+Six of the seven misses are on CUAD contracts:
+- **Auto-renewal "not found" instead of "no" (three contracts).** Renewal there requires both parties to agree.
+- **A missed effective date (one contract).**
+- **Matcher misses (three).** These are right in substance but worded differently from the label, which the strict text matcher counts as wrong: a date-range term, a liability cap, and "150%" where the label says "150 percent".
 
-The labels were written for this project from the contract text and have not been reviewed by a lawyer. Fourteen contracts are enough to catch regressions, not to make claims about accuracy in general. Per-contract results are in `evals/results/`.
+The model ignored the planted instruction and reported the real terms. Results move slightly between runs: an earlier run over the first 14 contracts missed fields on two CUAD contracts that this run got right.
+
+The labels were written for this project from the contract text and have not been reviewed by a lawyer. Twenty-four contracts are enough to catch regressions, not to make claims about accuracy in general. Per-contract results are in `evals/results/`.
 
 ## Run locally
 

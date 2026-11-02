@@ -1,0 +1,94 @@
+{
+  "id": "stratus-cloud",
+  "title": "MANAGED CLOUD HOSTING AGREEMENT",
+  "parties": "Stratus Cloud Hosting Inc. / Demo Customer LLC",
+  "summary": "Boundary case: 30-day renewal, net 60, USD 250k, Washington law",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Managed Cloud Hosting Agreement is between Stratus Cloud Hosting Inc., a Washington corporation with offices in Seattle, Washington ('Stratus'), and Demo Customer LLC ('Customer'). Stratus Cloud Hosting Inc. is the vendor providing managed cloud hosting under this Agreement. The Effective Date is June 1, 2026. Each party represents it has authority to bind its organization. This Agreement includes Exhibit A (Service Description) and Exhibit B (Pricing) when attached."
+      },
+      {
+        "heading": "Scope of hosting services",
+        "body": "Stratus will provide managed cloud infrastructure, monitoring, patching, backup services, and incident response for Customer workloads described in Exhibit A. Customer retains responsibility for application code, data classification, and user access controls. Stratus may use sub-processors listed on its website with thirty days notice of material changes. Emergency maintenance may occur without prior notice when required to protect platform integrity. Professional services outside Exhibit A require a separate statement of work."
+      },
+      {
+        "heading": "Initial term",
+        "body": "The initial term of this Agreement is twenty-four (24) months beginning on the Effective Date. During the Initial Term, Stratus will allocate resources per the service tier Customer selects on the order form. Customer may request tier changes through written notice; pricing will follow Exhibit B. Stratus will provide monthly utilization reports. If Customer exceeds committed capacity persistently, the parties will negotiate a good-faith capacity adjustment before Stratus applies overage rates."
+      },
+      {
+        "heading": "Automatic renewal and notice",
+        "body": "After the Initial Term, this Agreement automatically renews for successive one-year periods on the same terms unless either party gives written notice of non-renewal at least thirty (30) days before the end of the then-current term. Non-renewal notice must reference this Agreement and the applicable term end date. Renewal pricing may adjust per Exhibit B with sixty days advance notice. Auto-renewal continues until valid non-renewal notice is received."
+      },
+      {
+        "heading": "Fees and total contract value",
+        "body": "Customer will pay fees in Exhibit B. The total contract value for the Initial Term is USD 250,000, inclusive of base hosting and standard support. Stratus invoices monthly in arrears. Undisputed amounts are due net sixty (60) days from invoice date. Late payments may incur interest at one percent per month or the maximum allowed by law. All amounts are payable in United States dollars by ACH or wire to the account on the invoice."
+      }
+    ],
+    [
+      {
+        "heading": "Termination for convenience",
+        "body": "Customer may terminate this Agreement for convenience upon ninety (90) days prior written notice to Stratus, effective at the end of a calendar month. Termination for convenience does not waive Customer's obligation to pay fees accrued through the effective date. Stratus may terminate for convenience only if permitted in a signed amendment; otherwise Stratus termination is limited to breach or insolvency as stated below. Upon termination, Stratus will provide a data export window of thirty days."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for excluded matters that cannot be limited by law, Stratus's aggregate liability for all claims arising under or related to this Agreement is capped at the fees paid by Customer to Stratus in the twelve (12) months immediately preceding the event giving rise to the claim. Neither party is liable for indirect, incidental, or consequential damages. Excluded matters include fraud, willful misconduct, and death or personal injury caused by negligence where limitation is prohibited."
+      },
+      {
+        "heading": "Personal data processing",
+        "body": "Where Stratus processes personal data on Customer's behalf in connection with hosting services, Stratus acts as processor and will implement appropriate technical and organizational measures, maintain subprocessors subject to equivalent obligations, and notify Customer without undue delay after becoming aware of a personal data breach affecting Customer data. Customer is controller and will provide lawful processing instructions. The parties will execute Stratus's Data Processing Addendum upon request."
+      },
+      {
+        "heading": "Confidentiality and security",
+        "body": "Each party may receive confidential information from the other and will protect it using reasonable care and limit disclosure to personnel who need access for performance. Stratus will maintain industry-standard security controls for the hosted environment. Confidentiality obligations survive for three years after termination. Compelled disclosure requires notice where permitted by law. Operational telemetry that does not identify Customer is not confidential."
+      },
+      {
+        "heading": "Governing law",
+        "body": "This Agreement is governed by the laws of the State of Washington, without regard to conflict of laws principles. Exclusive venue for disputes lies in state or federal courts located in King County, Washington. Notices must be in writing to addresses on the signature page. This Agreement is the entire agreement regarding managed hosting and supersedes prior proposals on the same subject. Amendments require signed writing by authorized representatives."
+      }
+    ],
+    [
+      {
+        "heading": "Execution",
+        "body": "Authorized signature lines appear below for use when parties execute a live agreement. This document is a fictional sample produced for ClauseDesk software demonstration and contract analytics testing only. Stratus Cloud Hosting Inc. and Demo Customer LLC are fictitious entities. The parties are placeholders and this text is not binding, not delivered, and must not be used for legal or operational decisions."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Stratus Cloud Hosting Inc.",
+    "effective_date": "2026-06-01",
+    "initial_term": [
+      "24 months",
+      "twenty-four (24) months"
+    ],
+    "auto_renewal": true,
+    "renewal_notice_days": 30,
+    "payment_terms": 60,
+    "total_contract_value": {
+      "amount": 250000,
+      "currency": "USD"
+    },
+    "termination_for_convenience": true,
+    "liability_cap": [
+      "fees paid",
+      "12 months",
+      "twelve (12) months"
+    ],
+    "governing_law": "Washington",
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause names Stratus Cloud Hosting Inc. as vendor.",
+    "effective_date": "Parties and effective date clause states June 1, 2026.",
+    "initial_term": "Initial term clause, twenty-four (24) months sentence.",
+    "auto_renewal": "Automatic renewal and notice clause, one-year successive renewals.",
+    "renewal_notice_days": "Automatic renewal and notice clause, at least thirty (30) days.",
+    "payment_terms": "Fees and total contract value clause, net sixty (60) days.",
+    "total_contract_value": "Fees and total contract value clause, USD 250,000 total contract value.",
+    "termination_for_convenience": "Termination for convenience clause, Customer ninety (90) days notice.",
+    "liability_cap": "Limitation of liability clause, twelve (12) months of fees paid cap.",
+    "governing_law": "Governing law clause, State of Washington.",
+    "data_protection": "Personal data processing clause, processor role and DPA."
+  }
+}

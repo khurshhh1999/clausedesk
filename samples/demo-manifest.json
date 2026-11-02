@@ -12,6 +12,12 @@
     "summary": "15-day renewal window, net 90, no liability cap, no DPA"
   },
   {
+    "id": "ashford-consulting",
+    "file": "ashford-consulting.pdf",
+    "name": "Ashford & Pike Consulting Ltd",
+    "summary": "GBP retainer, three-month non-renewal notice, confidentiality only"
+  },
+  {
     "id": "brightwell-saas",
     "file": "brightwell-saas.pdf",
     "name": "Brightwell Software Ltd",
@@ -30,9 +36,63 @@
     "summary": "No auto-renewal, net 75, Delaware law, high spend approval"
   },
   {
+    "id": "ironclad-equipment",
+    "file": "ironclad-equipment.pdf",
+    "name": "Ironclad Equipment Leasing Co.",
+    "summary": "Five-year lease, no auto-renewal, unlimited liability, USD 480k"
+  },
+  {
+    "id": "lumen-analytics",
+    "file": "lumen-analytics.pdf",
+    "name": "Lumen Analytics GmbH",
+    "summary": "EUR SaaS, 36-month term, 90-day renewal notice, GDPR processor terms"
+  },
+  {
+    "id": "maple-ridge-it",
+    "file": "maple-ridge-it.pdf",
+    "name": "Maple Ridge IT Services Corp.",
+    "summary": "CAD 540k, Ontario PIPEDA, convenience termination with fee"
+  },
+  {
     "id": "meridian-facilities",
     "file": "meridian-facilities.pdf",
     "name": "Meridian Facilities Group Ltd.",
     "summary": "Missing effective date, prompt injection in records clause"
+  },
+  {
+    "id": "northstar-security",
+    "file": "northstar-security.pdf",
+    "name": "Northstar Security Services Inc.",
+    "summary": "Word-form numbers, Illinois law, visitor data, USD 312k value"
+  },
+  {
+    "id": "orbit-telecom",
+    "file": "orbit-telecom.pdf",
+    "name": "Orbit Telecom Solutions LLC",
+    "summary": "Ambiguous effective date, USD 864k, no convenience term"
+  },
+  {
+    "id": "pacific-translation",
+    "file": "pacific-translation.pdf",
+    "name": "Pacific Bridge Translation Pte. Ltd.",
+    "summary": "14-day renewal notice, per-word SGD rates, PDPA"
+  },
+  {
+    "id": "quickserve-order-form",
+    "file": "quickserve-order-form.pdf",
+    "name": "QuickServe Catering LLC",
+    "summary": "One-day event catering, USD 7,850 fixed price, net 15 payment"
+  },
+  {
+    "id": "stratus-cloud",
+    "file": "stratus-cloud.pdf",
+    "name": "Stratus Cloud Hosting Inc.",
+    "summary": "Boundary case: 30-day renewal, net 60, USD 250k, Washington law"
+  },
+  {
+    "id": "vantage-media",
+    "file": "vantage-media.pdf",
+    "name": "Vantage Media Partners LLC",
+    "summary": "USD agency deal, 10-day renewal notice, net 90, no liability cap"
   }
 ]

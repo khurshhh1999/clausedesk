@@ -1,0 +1,101 @@
+{
+  "id": "ashford-consulting",
+  "title": "MANAGEMENT CONSULTING RETAINER AGREEMENT",
+  "parties": "Ashford & Pike Consulting Ltd / Demo Customer LLC",
+  "summary": "GBP retainer, three-month non-renewal notice, confidentiality only",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Management Consulting Retainer Agreement is made between Ashford & Pike Consulting Ltd, a company registered in England and Wales with offices in London ('Ashford'), and Demo Customer LLC ('Customer'). Ashford & Pike Consulting Ltd is the vendor providing consulting services under this Agreement. The Effective Date is May 11, 2026. Each party warrants it has obtained necessary internal approvals. References to 'Agreement' mean this document and any statements of work executed under it."
+      },
+      {
+        "heading": "Scope of consulting services",
+        "body": "Ashford will provide strategic planning, operating model review, and executive workshop facilitation as described in Exhibit 1. Deliverables include written recommendations, slide decks, and session summaries unless a statement of work specifies otherwise. Customer will designate a project sponsor and provide timely access to personnel and information. Ashford may use experienced consultants and subcontractors who remain bound by confidentiality. Work outside Exhibit 1 requires a signed change order."
+      },
+      {
+        "heading": "Initial term and renewal",
+        "body": "The initial term of this Agreement is twelve (12) months beginning on the Effective Date. Upon expiration of the Initial Term, this Agreement automatically renews for successive twelve (12) month terms on the same terms unless either party gives at least three (3) months written notice of non-renewal before the end of the then-current term. Non-renewal notice must be delivered to the addresses in the Notices clause and identify the term end date."
+      },
+      {
+        "heading": "Fees and total contract value",
+        "body": "Customer will pay the monthly retainer and expenses set forth in Exhibit 2. The total contract value for the Initial Term is GBP 96,000 excluding VAT and pre-approved travel. Ashford will invoice monthly in arrears. Customer must pay undisputed invoices within forty-five (45) days of receipt of each invoice. Late amounts may accrue interest at one percent per month or the maximum permitted by law, whichever is lower. Expenses require prior written approval unless listed as pre-approved in Exhibit 2."
+      },
+      {
+        "heading": "Client cooperation",
+        "body": "Customer will respond to reasonable information requests within five business days and will make decision makers available for scheduled workshops. Delays caused by Customer may extend timelines without penalty to Ashford. If Customer fails to cooperate materially for thirty days after notice, Ashford may suspend work until cooperation resumes. Suspension does not reduce retainer fees for the committed term unless the parties agree otherwise in writing."
+      }
+    ],
+    [
+      {
+        "heading": "Deliverables and acceptance",
+        "body": "Ashford will deliver draft materials for review within timelines in Exhibit 1. Customer will provide consolidated feedback within ten business days of delivery. Deemed acceptance occurs if Customer uses deliverables operationally or fails to object within fifteen business days after final delivery. Ashford may incorporate reasonable revisions once per major deliverable. Additional revision cycles may be billed at standard day rates in Exhibit 2."
+      },
+      {
+        "heading": "Termination for convenience",
+        "body": "Either party may terminate this Agreement for convenience upon thirty (30) days' prior written notice to the other party. Termination for convenience does not relieve Customer of payment for fees accrued and work performed through the effective termination date. Upon termination, Ashford will deliver work in progress in a reasonable format. Sections intended to survive, including confidentiality, limitation of liability, and governing law, remain in effect."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for liabilities that cannot be limited by applicable law, Ashford's aggregate liability for all claims arising under or related to this Agreement is capped at one hundred fifty percent (150 percent) of fees paid by Customer under this Agreement. Neither party is liable for indirect, incidental, special, or consequential damages, including lost profits, even if advised of the possibility. Nothing limits liability for fraud or willful misconduct where prohibited by law."
+      },
+      {
+        "heading": "Confidentiality",
+        "body": "Each party may learn non-public business, financial, or strategic information belonging to the other that is marked confidential or should reasonably be treated as confidential. The receiving party will not disclose such information except to personnel and advisors who need it for performance and who are bound to confidentiality. General consulting methodologies are not confidential. These obligations continue for three years after termination. Compelled disclosure requires notice where permitted by law."
+      },
+      {
+        "heading": "Intellectual property",
+        "body": "Ashford retains ownership of its pre-existing frameworks, templates, and methodologies. Customer receives a perpetual, non-exclusive license to use deliverables prepared specifically for Customer under this Agreement for internal business purposes. Customer retains ownership of its data and materials provided to Ashford. Ashford may use anonymized engagement learnings for training provided no Customer identity is disclosed."
+      }
+    ],
+    [
+      {
+        "heading": "Independent contractor status",
+        "body": "Ashford performs as an independent contractor and not as an employee, partner, or agent of Customer. Ashford is solely responsible for its taxes, benefits, and professional registrations. Customer will not direct day-to-day employment matters for Ashford personnel. Nothing in this Agreement creates a joint venture. Customer may not represent Ashford personnel as Customer employees to third parties."
+      },
+      {
+        "heading": "Notices and governing law",
+        "body": "Formal notices must be in writing and sent to the addresses on the signature page or updated by written notice. Email is sufficient for operational notices if receipt is confirmed. This Agreement is the entire understanding between the parties regarding the retainer and supersedes prior proposals. Amendments require signed writing by authorized representatives. This Agreement is governed by the laws of England and Wales, excluding conflict of law rules. Courts in London have exclusive jurisdiction."
+      },
+      {
+        "heading": "Execution",
+        "body": "Signature blocks below are placeholders for authorized officers when a real agreement is executed. This text is a fictional demonstration sample for ClauseDesk contract review software only. Ashford & Pike Consulting Ltd and Demo Customer LLC are fictitious names used as test data. The document is not binding, not signed for delivery, and must not be relied upon for legal or business decisions."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Ashford & Pike Consulting Ltd",
+    "effective_date": "2026-05-11",
+    "initial_term": [
+      "12 months",
+      "twelve (12) months"
+    ],
+    "auto_renewal": true,
+    "renewal_notice_days": null,
+    "payment_terms": 45,
+    "total_contract_value": {
+      "amount": 96000,
+      "currency": "GBP"
+    },
+    "termination_for_convenience": true,
+    "liability_cap": [
+      "150 percent",
+      "150 percent of fees paid"
+    ],
+    "governing_law": "England and Wales",
+    "data_protection": null
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause identifies Ashford & Pike Consulting Ltd as vendor.",
+    "effective_date": "Parties and effective date clause states May 11, 2026.",
+    "initial_term": "Initial term and renewal clause, twelve (12) months initial term.",
+    "auto_renewal": "Initial term and renewal clause, successive twelve (12) month renewals.",
+    "renewal_notice_days": "Initial term and renewal clause states three (3) months notice; months are not converted to days.",
+    "payment_terms": "Fees and total contract value clause, forty-five (45) days of receipt.",
+    "total_contract_value": "Fees and total contract value clause, GBP 96,000 total contract value.",
+    "termination_for_convenience": "Termination for convenience clause, thirty (30) days written notice.",
+    "liability_cap": "Limitation of liability clause, one hundred fifty percent (150 percent) of fees paid cap.",
+    "governing_law": "Notices and governing law clause, laws of England and Wales.",
+    "data_protection": "Only a confidentiality clause appears; no personal data processing terms are stated."
+  }
+}

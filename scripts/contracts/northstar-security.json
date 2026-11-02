@@ -1,0 +1,87 @@
+{
+  "id": "northstar-security",
+  "title": "SECURITY SERVICES AGREEMENT",
+  "parties": "Northstar Security Services Inc. / Demo Customer LLC",
+  "summary": "Word-form numbers, Illinois law, visitor data, USD 312k value",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Security Services Agreement is between Northstar Security Services Inc., an Illinois corporation based in Chicago, Illinois ('Northstar'), and Demo Customer LLC ('Customer'). Northstar Security Services Inc. is the vendor providing on-site security guard services. This Agreement is effective as of the first day of July, 2026. Each party warrants it has authority to enter this Agreement. Work orders under Exhibit A describe posts, hours, and uniform standards."
+      },
+      {
+        "heading": "Scope of security services",
+        "body": "Northstar will provide trained uniformed security officers for access control, patrols, and incident reporting at Customer facilities listed on Exhibit A. Officers will follow post orders Customer approves in writing. Northstar maintains hiring, background screening, and training programs consistent with industry practice. Customer will provide safe working conditions, badges, and escalation contacts. Armed services require separate written authorization and insurance certificates."
+      },
+      {
+        "heading": "Initial term and renewal",
+        "body": "The initial term of this Agreement is two years beginning on the Effective Date. After the initial term, this Agreement automatically renews for successive one-year periods unless either party gives written notice of non-renewal at least sixty days before the end of the then-current term. Renewal continues on the same service levels unless the parties sign a written amendment. Notice must identify the facility list and term end date to be effective."
+      },
+      {
+        "heading": "Fees and total contract value",
+        "body": "Customer will pay hourly rates and fixed post fees in Exhibit B. The total contract value for the initial term is three hundred and twelve thousand United States dollars, covering all scheduled guard hours in Exhibit B. Northstar invoices monthly in arrears. Invoices are payable within thirty days of invoice date. Late amounts may accrue interest at one percent per month. All fees are due in United States dollars by ACH or wire."
+      },
+      {
+        "heading": "Termination for convenience",
+        "body": "Customer may terminate this Agreement for convenience upon sixty days prior written notice to Northstar, effective at the end of a calendar month. Termination for convenience does not relieve Customer of payment for services performed before the effective date. Northstar may terminate for convenience only upon sixty days notice if permitted in Exhibit A for specific posts. Upon termination, Northstar will return Customer keys and badges and provide a final incident log."
+      }
+    ],
+    [
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for matters that cannot be limited by applicable law, Northstar's aggregate liability for all claims arising under this Agreement is capped at one million United States dollars in the aggregate. Neither party is liable for indirect or consequential damages. Customer acknowledges guards deter incidents but cannot guarantee prevention of all crime or loss. Customer must notify Northstar of claims within thirty days of discovery. This cap applies to all causes of action combined."
+      },
+      {
+        "heading": "Personal data and surveillance",
+        "body": "Northstar processes personal data including visitor log entries, badge photos, and CCTV footage of Customer premises to provide security services. Northstar will limit access to authorized personnel, retain logs per Customer's written schedule, and notify Customer without undue delay after becoming aware of unauthorized access to such personal data. Customer is responsible for signage and lawful bases for surveillance. A data processing addendum is available on request."
+      },
+      {
+        "heading": "Confidentiality and insurance",
+        "body": "Each party will protect non-public security procedures, floor plans, and pricing as confidential. Northstar will maintain workers compensation, general liability, and errors and omissions insurance at levels in Exhibit C and name Customer as additional insured where customary. Neither party may assign this Agreement without consent except to a successor in a merger of substantially all assets. Unauthorized assignment is void."
+      },
+      {
+        "heading": "Governing law",
+        "body": "This Agreement is governed by the laws of the State of Illinois, without regard to conflict of laws principles. Exclusive venue lies in courts located in Cook County, Illinois. Notices must be in writing to addresses on the signature page. This Agreement is the entire understanding regarding guard services and supersedes prior proposals. Amendments require signed writing by authorized representatives."
+      },
+      {
+        "heading": "Execution",
+        "body": "Signatures below are placeholders for authorized representatives. This Agreement text is a fictional sample for ClauseDesk demonstration and automated review testing. Northstar Security Services Inc. and Demo Customer LLC are fictitious. The document is not binding, not executed, and must not be used for security planning or legal compliance decisions."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Northstar Security Services Inc.",
+    "effective_date": "2026-07-01",
+    "initial_term": [
+      "two years",
+      "2 years"
+    ],
+    "auto_renewal": true,
+    "renewal_notice_days": 60,
+    "payment_terms": 30,
+    "total_contract_value": {
+      "amount": 312000,
+      "currency": "USD"
+    },
+    "termination_for_convenience": true,
+    "liability_cap": [
+      "USD 1,000,000",
+      "one million United States dollars"
+    ],
+    "governing_law": "Illinois",
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause names Northstar Security Services Inc. as vendor.",
+    "effective_date": "Parties and effective date clause, first day of July, 2026 maps to 2026-07-01.",
+    "initial_term": "Initial term and renewal clause, two years.",
+    "auto_renewal": "Initial term and renewal clause, one-year successive renewals.",
+    "renewal_notice_days": "Initial term and renewal clause, at least sixty days notice.",
+    "payment_terms": "Fees and total contract value clause, payable within thirty days.",
+    "total_contract_value": "Fees and total contract value clause, three hundred and twelve thousand United States dollars.",
+    "termination_for_convenience": "Termination for convenience clause, Customer sixty days notice.",
+    "liability_cap": "Limitation of liability clause, capped at one million United States dollars in the aggregate.",
+    "governing_law": "Governing law clause, State of Illinois.",
+    "data_protection": "Personal data and surveillance clause, visitor logs and CCTV personal data."
+  }
+}

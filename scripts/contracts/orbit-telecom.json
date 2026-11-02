@@ -1,0 +1,116 @@
+{
+  "id": "orbit-telecom",
+  "title": "ENTERPRISE CONNECTIVITY MASTER SERVICES AGREEMENT",
+  "parties": "Orbit Telecom Solutions LLC / Demo Customer LLC",
+  "summary": "Ambiguous effective date, USD 864k, no convenience term",
+  "pages": [
+    [
+      {
+        "heading": "Parties and agreement framework",
+        "body": "This Enterprise Connectivity Master Services Agreement ('MSA') is between Orbit Telecom Solutions LLC, a Texas limited liability company with principal offices in Dallas, Texas ('Orbit Telecom'), and Demo Customer LLC ('Customer'). Orbit Telecom Solutions LLC is the vendor providing enterprise connectivity and related telecommunications services under this MSA and applicable service schedules. This MSA governs multiple service orders unless a service order expressly overrides a specific provision. Each party warrants it has authority to enter this MSA."
+      },
+      {
+        "heading": "Effective date",
+        "body": "This MSA is effective on the date of the last signature below ('Effective Date'). Service schedules become effective on the dates stated in each schedule or upon Orbit Telecom's written acceptance of a customer order, whichever is later for that schedule. The parties will maintain a schedule register listing active circuits and sites. Operational start dates for individual circuits may differ from the MSA Effective Date without amending this section."
+      },
+      {
+        "heading": "Initial term and renewal",
+        "body": "The initial term of this MSA is thirty-six (36) months beginning on the Effective Date. After the initial term expires, this MSA will automatically renew on a month-to-month basis unless either party gives written notice of non-renewal at least sixty (60) days before the end of the initial term or before the end of any month-to-month renewal period. Month-to-month renewal continues pricing in active service schedules until amended in writing. Non-renewal applies to the MSA framework and all attached schedules unless a schedule states otherwise."
+      },
+      {
+        "heading": "Fees and total contract value",
+        "body": "Customer will pay recurring circuit fees, port charges, and managed service fees per active service schedules. The total contract value for committed connectivity services over the initial term is USD 864,000, subject to true-up for approved schedule changes documented in writing. Invoices are due net forty-five (45) days from invoice date. Late undisputed amounts may incur finance charges of one percent per month. Payment must be made in U.S. dollars by ACH or wire to the remittance instructions on the invoice."
+      },
+      {
+        "heading": "Service descriptions",
+        "body": "Orbit Telecom will provision dedicated internet access, private line, SD-WAN, and colocation cross-connects as ordered under service schedules. Standard installation intervals are estimates and not guaranteed service levels unless a premium installation option is purchased. Customer will provide access, power, and space per schedule requirements. Customer is responsible for internal LAN configuration unless a managed LAN option is ordered. Orbit Telecom may use underlying carrier partners while remaining accountable to Customer for schedule performance."
+      }
+    ],
+    [
+      {
+        "heading": "Service levels and credits",
+        "body": "Availability targets and service credit calculations for each service type are listed in Exhibit A. Credits are Customer's sole monetary remedy for chronic availability failures meeting Exhibit A thresholds, except for willful misconduct. Customer must request credits within thirty days of the monthly performance report. Planned maintenance will follow the maintenance policy in Exhibit B with at least seventy-two hours notice when practicable. Emergency maintenance may occur without advance notice when required to protect network integrity."
+      },
+      {
+        "heading": "Termination during initial term",
+        "body": "Neither party may terminate this MSA for convenience during the initial term. Termination during the initial term is permitted only for material breach that remains uncured thirty days after written notice describing the breach in reasonable detail, or as otherwise required by law. After the initial term, termination during month-to-month renewal follows the non-renewal notice procedure in the Initial term and renewal clause. Early termination for breach does not waive accrued payment obligations for services through the termination effective date."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for liabilities that cannot be limited by applicable law, each party's aggregate liability arising out of or related to this MSA is capped at two times the fees paid in the prior 12 months. Neither party is liable for indirect, consequential, or lost profit damages. The cap applies collectively to all claims under contract, tort, or statute. Service credits earned under Exhibit A reduce amounts counted toward the cap only to the extent actually applied against invoices."
+      },
+      {
+        "heading": "Customer network data",
+        "body": "Orbit Telecom may process Customer network data, including metadata and call detail records that contain personal data such as telephone numbers and call timestamps, solely to provision circuits, monitor performance, and investigate service incidents. Orbit Telecom will limit access to authorized operations personnel, retain such data only as long as needed for those purposes or as required by regulation, and notify Customer without undue delay of confirmed unauthorized access affecting Customer network data containing personal data."
+      },
+      {
+        "heading": "Security and compliance",
+        "body": "Orbit Telecom will maintain administrative, technical, and physical safeguards appropriate to the sensitivity of Customer network data. Customer is responsible for securing its endpoints and applications. Either party will promptly notify the other of suspected security incidents affecting shared infrastructure. Orbit Telecom will cooperate with reasonable Customer inquiries during incident response. Export and sanctions compliance obligations apply to cross-border circuits as described in Exhibit C."
+      }
+    ],
+    [
+      {
+        "heading": "Confidentiality",
+        "body": "Each party may receive confidential network designs, pricing, and business plans belonging to the other. The receiving party will not disclose confidential information except to personnel, carriers, and advisors who need it for performance and who are bound to confidentiality. Aggregated anonymized network statistics may be used for capacity planning without identifying Customer. Confidentiality obligations survive three years after termination. Compelled disclosure requires notice where permitted by law."
+      },
+      {
+        "heading": "Indemnification",
+        "body": "Orbit Telecom will defend Customer against third-party claims alleging that Orbit Telecom's connectivity services infringe a U.S. patent or copyright, subject to customary exclusions for Customer modifications and combinations not supplied by Orbit Telecom. Customer will defend Orbit Telecom against claims arising from Customer content or unlawful use of services. Indemnified parties must provide prompt notice and reasonable cooperation. Settlement requires consent not unreasonably withheld."
+      },
+      {
+        "heading": "Insurance and assignment",
+        "body": "Orbit Telecom will maintain commercial general liability and errors and omissions insurance at levels in Exhibit D. Neither party may assign this MSA without prior written consent, except to a successor in a merger or sale of substantially all assets with notice. Unauthorized assignment is void. Orbit Telecom may assign receivables without consent. Customer may not resell connectivity except where a resale schedule is executed."
+      },
+      {
+        "heading": "Notices",
+        "body": "Formal notices under this MSA must be sent by email with delivery confirmation and by courier to the addresses on the signature page. Operational notices may use the designated operations distribution list. Either party may update notice contacts by written notice. Invalid notice does not invalidate other provisions. Service schedule changes that affect pricing or term require signed schedule amendments referencing this MSA."
+      },
+      {
+        "heading": "Governing law",
+        "body": "This MSA is governed by the laws of the State of Texas, without regard to conflict-of-law principles that would apply another jurisdiction. The parties consent to exclusive venue in state or federal courts located in Dallas County, Texas, for disputes arising under this MSA. The United Nations Convention on Contracts for the International Sale of Goods does not apply. Amendments to this MSA must be signed by authorized representatives of both parties."
+      }
+    ],
+    [
+      {
+        "heading": "Entire agreement",
+        "body": "This MSA, including exhibits and active service schedules, constitutes the entire agreement regarding enterprise connectivity services and supersedes prior proposals for subjects covered herein. If a service schedule conflicts with this MSA on operational details for a specific circuit, the schedule controls for that circuit. Severability applies to invalid provisions. Failure to enforce a provision is not a waiver of future enforcement. Headings are for convenience only."
+      },
+      {
+        "heading": "Execution",
+        "body": "Orbit Telecom Solutions LLC signed on March 3, 2026. Demo Customer LLC signed on March 10, 2026. Signature blocks are demo placeholders. This document is a fictional sample agreement created solely for ClauseDesk software demonstration and automated contract extraction testing. Orbit Telecom Solutions LLC and Demo Customer LLC are fictitious parties. It is not binding and must not be used for legal or operational reliance."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Orbit Telecom Solutions LLC",
+    "effective_date": null,
+    "initial_term": [
+      "36 months",
+      "thirty-six (36) months"
+    ],
+    "auto_renewal": true,
+    "renewal_notice_days": 60,
+    "payment_terms": 45,
+    "total_contract_value": {
+      "amount": 864000,
+      "currency": "USD"
+    },
+    "termination_for_convenience": false,
+    "liability_cap": "two times the fees paid in the prior 12 months",
+    "governing_law": "Texas",
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties and agreement framework clause names Orbit Telecom Solutions LLC as vendor.",
+    "effective_date": "Effective date clause defers to last signature; Execution shows two signature dates with no single stated calendar effective date for automated extraction.",
+    "initial_term": "Initial term and renewal clause states thirty-six (36) months beginning on the Effective Date.",
+    "auto_renewal": "Initial term and renewal clause provides month-to-month automatic renewal after the initial term.",
+    "renewal_notice_days": "Initial term and renewal clause requires non-renewal notice at least sixty (60) days before term end.",
+    "payment_terms": "Fees and total contract value clause states net forty-five (45) days.",
+    "total_contract_value": "Fees and total contract value clause states total contract value is USD 864,000.",
+    "termination_for_convenience": "Termination during initial term clause states neither party may terminate for convenience during the initial term.",
+    "liability_cap": "Limitation of liability clause caps aggregate liability at two times the fees paid in the prior 12 months.",
+    "governing_law": "Governing law clause specifies State of Texas.",
+    "data_protection": "Customer network data clause covers personal data in call records and related network data."
+  }
+}
