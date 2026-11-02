@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils';
 export type Focus = { paragraphId: string; quote: string | null } | null;
 
 export function DocumentPane({ name, paragraphs, focus }: { name: string; paragraphs: Paragraph[]; focus: Focus }) {
+  const pane = useRef<HTMLElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
   const pages = new Set(paragraphs.map((p) => p.page)).size;
 
@@ -18,10 +19,16 @@ export function DocumentPane({ name, paragraphs, focus }: { name: string; paragr
     if (!element) return;
     const top = element.offsetTop - container.clientHeight / 2 + element.clientHeight / 2;
     container.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+
+    // On narrow screens the pane sits above the terms, so bring it into view too.
+    const rect = pane.current?.getBoundingClientRect();
+    if (rect && (rect.top < 0 || rect.bottom > window.innerHeight)) {
+      pane.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }, [focus]);
 
   return (
-    <section className="flex min-h-0 flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-sm">
+    <section ref={pane} className="flex h-full min-h-0 scroll-mt-20 flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-sm">
       <div className="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5">
         <span className="truncate text-sm font-medium">{name}</span>
         <span className="shrink-0 font-mono text-[11px] text-ink-faint">

@@ -18,13 +18,13 @@ export function AppHeader() {
 
   return (
     <header className="sticky top-0 z-20 border-b border-line bg-surface/90 backdrop-blur">
-      <div className="mx-auto flex h-14 max-w-[1440px] items-center gap-5 px-4 sm:gap-8 sm:px-6">
+      <div className="mx-auto flex h-14 max-w-[1440px] items-center gap-4 px-4 sm:gap-8 sm:px-6">
         <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight">
           <Logo />
-          ClauseDesk
+          <span className="hidden sm:inline">ClauseDesk</span>
         </Link>
 
-        <nav className="flex h-full items-stretch gap-6 text-sm">
+        <nav className="flex h-full items-stretch gap-4 text-sm sm:gap-6">
           {NAV.map((item) => (
             <Link
               key={item.href}
@@ -39,8 +39,8 @@ export function AppHeader() {
           ))}
         </nav>
 
-        <div className="ml-auto flex items-center gap-4">
-          <span className="hidden items-center gap-1.5 text-xs text-ink-faint sm:flex" title={model ?? undefined}>
+        <div className="ml-auto flex shrink-0 items-center gap-4">
+          <span className="hidden items-center gap-1.5 whitespace-nowrap text-xs text-ink-faint md:flex" title={model ?? undefined}>
             <span className={cn('size-1.5 rounded-full', demoMode ? 'bg-amber-500' : 'bg-emerald-500')} />
             {demoMode ? 'Demo extractor' : 'Claude connected'}
           </span>
@@ -58,7 +58,7 @@ export function AppHeader() {
                   role === option && 'bg-surface text-ink shadow-sm',
                 )}
               >
-                {option === 'Reviewer' ? <ShieldCheck className="size-3.5" /> : <Eye className="size-3.5" />}
+                {option === 'Reviewer' ? <ShieldCheck className="hidden size-3.5 sm:block" /> : <Eye className="hidden size-3.5 sm:block" />}
                 {option}
               </button>
             ))}

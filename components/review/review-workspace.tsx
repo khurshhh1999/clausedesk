@@ -26,7 +26,7 @@ export function ReviewWorkspace({ contract, autoExtract }: { contract: ContractD
         <div className="lg:order-2">
           <ExtractionProgress contractId={contract.id} status={contract.status} autoStart={autoExtract} />
         </div>
-        <div className="h-[calc(100vh-13rem)] lg:order-1">
+        <div className="h-[60vh] min-h-[360px] lg:order-1 lg:h-[calc(100vh-13rem)] lg:min-h-[480px]">
           <DocumentPane name={contract.name} paragraphs={contract.paragraphs} focus={null} />
         </div>
       </div>
@@ -98,7 +98,7 @@ export function ReviewWorkspace({ contract, autoExtract }: { contract: ContractD
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
-      <div className="h-[calc(100vh-13rem)] min-h-[480px] lg:sticky lg:top-20">
+      <div className="h-[60vh] min-h-[360px] lg:sticky lg:top-20 lg:h-[calc(100vh-13rem)] lg:min-h-[480px]">
         <DocumentPane name={contract.name} paragraphs={contract.paragraphs} focus={focus} />
       </div>
 
