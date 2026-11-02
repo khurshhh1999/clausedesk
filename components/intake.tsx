@@ -94,6 +94,7 @@ export function Intake({ samples }: { samples: Sample[] }) {
         </div>
         <h2 className="text-base font-medium">{busy ? 'Parsing contract…' : 'Drop a vendor contract here'}</h2>
         <p className="mt-1.5 text-sm text-ink-soft">PDF with selectable text, up to 10 MB.</p>
+        <p className="mt-1 text-xs text-ink-faint">This is a public demo: uploads are visible to everyone. Don’t upload confidential contracts.</p>
         <Button className="mt-5" disabled={!canUpload} onClick={() => input.current?.click()}>
           Choose PDF
         </Button>

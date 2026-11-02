@@ -48,6 +48,7 @@ Built with Next.js (App Router), TypeScript, Tailwind, the Anthropic SDK, `unpdf
 - **Roles are enforced on the server.** Viewers can read everything but every write endpoint returns 403 for them, not only the disabled buttons.
 - **Edits are tracked.** A reviewer's correction is saved alongside the original extraction, with old and new values in the audit log. Saves are versioned, so two reviewers can't overwrite each other.
 - **Limits.** Uploads are capped at 10 MB and 150 pages. Upload and extraction are rate limited per client and globally. The API key stays on the server.
+- **Web hardening.** Writes from other origins are refused, the role cookie is `httpOnly` and `SameSite=Strict`, large uploads go to private Blob storage, and every page is served with headers that block framing and MIME sniffing.
 
 ## Evaluation
 
@@ -95,6 +96,7 @@ The public contracts in `samples/cuad-*.pdf` come from the [Contract Understandi
 - **Scanned PDFs.** There is no OCR yet, so image-only PDFs are rejected with a clear message. Next step: OCR before parsing.
 - **Second approver.** Contracts over USD 250,000 are flagged for a second approver, but the workflow doesn't enforce it yet. Next step: a separate approval step from a different user.
 - **Authentication.** The Reviewer/Viewer switch is a demo stand-in; the server enforces it, but anyone can pick either role. Next step: SSO, with roles from the identity provider.
+- **The demo is public.** There is a single shared workspace, so anything uploaded is visible to every visitor. Don't upload confidential contracts to it.
 - **Rate limiting** is in memory per server instance. A shared store such as Redis would make it exact across instances.
 - **Field coverage** is the 11 fields above. Indemnities, SLAs and price escalation would be natural additions, with labels to match.
 
