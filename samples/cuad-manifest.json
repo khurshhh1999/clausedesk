@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cuad-agape",
+    "file": "cuad-agape.pdf",
+    "name": "AgapeAtpCorp \u00b7 Supply",
+    "category": "Supply",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/main/CUAD_v1/full_contract_pdf/Part_I/Supply/AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply%20Agreement.pdf",
+    "original": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement.pdf",
+    "sha256": "623d1896671b5e948c55988edc44cdd74d0a3e0056e54aa3a266ff4b1480bfb0",
+    "license": "CC BY 4.0",
+    "author": "The Atticus Project / CUAD v1"
+  },
+  {
+    "id": "cuad-loha",
+    "file": "cuad-loha.pdf",
+    "name": "LohaCompanyltd \u00b7 Supply",
+    "category": "Supply",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/main/CUAD_v1/full_contract_pdf/Part_I/Supply/LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply%20Agreement.pdf",
+    "original": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement.pdf",
+    "sha256": "4540f4a8bb7090552517312efef883eddc3e5ba87efcbff65f93b9287ec2032e",
+    "license": "CC BY 4.0",
+    "author": "The Atticus Project / CUAD v1"
+  },
+  {
+    "id": "cuad-datacall",
+    "file": "cuad-datacall.pdf",
+    "name": "DataCallTechnologies \u00b7 License",
+    "category": "License",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/main/CUAD_v1/full_contract_pdf/Part_I/License_Agreements/DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content%20License%20Agreement.pdf",
+    "original": "DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.pdf",
+    "sha256": "7bd483e4fddbb817419d73402ac6080ea0a15afd2eb0a9f7e7593c60ee71276c",
+    "license": "CC BY 4.0",
+    "author": "The Atticus Project / CUAD v1"
+  },
+  {
+    "id": "cuad-phoenix",
+    "file": "cuad-phoenix.pdf",
+    "name": "PhoenixNewMediaLtd \u00b7 License",
+    "category": "License",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/main/CUAD_v1/full_contract_pdf/Part_I/License_Agreements/PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_Content%20License%20Agreement.pdf",
+    "original": "PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_Content License Agreement.pdf",
+    "sha256": "c522442608e1e5cef9c2707c3d156e40ce8dc95cd00265801474fbc048eb461b",
+    "license": "CC BY 4.0",
+    "author": "The Atticus Project / CUAD v1"
+  },
+  {
+    "id": "cuad-xinhua",
+    "file": "cuad-xinhua.pdf",
+    "name": "XinhuaSportsEntertainmentLtd \u00b7 License",
+    "category": "License",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/main/CUAD_v1/full_contract_pdf/Part_I/License_Agreements/XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content%20License%20Agreement.pdf",
+    "original": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement.pdf",
+    "sha256": "18bf6bf904264248fc9b98e2ff1ed8fd2bd49133796be6c4584374b294b6a8ed",
+    "license": "CC BY 4.0",
+    "author": "The Atticus Project / CUAD v1"
+  },
+  {
+    "id": "cuad-ability",
+    "file": "cuad-ability.pdf",
+    "name": "ABILITYINC \u00b7 Services",
+    "category": "Services",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/main/CUAD_v1/full_contract_pdf/Part_III/Service/ABILITYINC_06_15_2020-EX-4.25-SERVICES%20AGREEMENT.PDF",
+    "original": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT.PDF",
+    "sha256": "03ecee0bc7fe7765c7d74f31f91c43aaeed5fd9bd5791ab2ece37a6f9286098c",
+    "license": "CC BY 4.0",
+    "author": "The Atticus Project / CUAD v1"
+  },
+  {
+    "id": "cuad-scoutcam",
+    "file": "cuad-scoutcam.pdf",
+    "name": "SCOUTCAMINC \u00b7 Services",
+    "category": "Services",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/main/CUAD_v1/full_contract_pdf/Part_III/Service/SCOUTCAMINC_05_12_2020-EX-10.22-SERVICES%20AGREEMENT.PDF",
+    "original": "SCOUTCAMINC_05_12_2020-EX-10.22-SERVICES AGREEMENT.PDF",
+    "sha256": "bcb7399a73880b9148638872e7945820dae7a9fe640498fb082bcb59f4d6241c",
+    "license": "CC BY 4.0",
+    "author": "The Atticus Project / CUAD v1"
+  },
+  {
+    "id": "cuad-opera",
+    "file": "cuad-opera.pdf",
+    "name": "OPERALTD \u00b7 Services",
+    "category": "Services",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/main/CUAD_v1/full_contract_pdf/Part_III/Service/OPERALTD_04_30_2020-EX-4.14-SERVICE%20AGREEMENT.PDF",
+    "original": "OPERALTD_04_30_2020-EX-4.14-SERVICE AGREEMENT.PDF",
+    "sha256": "85d8a6e9f207cff06645154b288e03b5c60c7fea732ef90c80bd717cddc53810",
+    "license": "CC BY 4.0",
+    "author": "The Atticus Project / CUAD v1"
+  }
+]

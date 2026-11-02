@@ -1,0 +1,1930 @@
+{
+  "mode": "baseline",
+  "runAt": "2026-10-31T14:28:35.427Z",
+  "metrics": {
+    "contracts": 14,
+    "fieldAccuracy": {
+      "correct": 78,
+      "total": 154,
+      "pct": 50.6
+    },
+    "presentFieldAccuracy": {
+      "correct": 25,
+      "total": 101,
+      "pct": 24.7
+    },
+    "notFoundRate": {
+      "correct": 53,
+      "total": 53,
+      "pct": 100
+    },
+    "citationsRejected": {
+      "rejected": 0,
+      "of": 25
+    }
+  },
+  "byField": {
+    "vendor_name": {
+      "correct": 4,
+      "total": 14,
+      "pct": 28.5
+    },
+    "effective_date": {
+      "correct": 6,
+      "total": 14,
+      "pct": 42.8
+    },
+    "initial_term": {
+      "correct": 2,
+      "total": 14,
+      "pct": 14.2
+    },
+    "auto_renewal": {
+      "correct": 6,
+      "total": 14,
+      "pct": 42.8
+    },
+    "renewal_notice_days": {
+      "correct": 11,
+      "total": 14,
+      "pct": 78.5
+    },
+    "payment_terms": {
+      "correct": 7,
+      "total": 14,
+      "pct": 50
+    },
+    "total_contract_value": {
+      "correct": 11,
+      "total": 14,
+      "pct": 78.5
+    },
+    "termination_for_convenience": {
+      "correct": 7,
+      "total": 14,
+      "pct": 50
+    },
+    "liability_cap": {
+      "correct": 10,
+      "total": 14,
+      "pct": 71.4
+    },
+    "governing_law": {
+      "correct": 4,
+      "total": 14,
+      "pct": 28.5
+    },
+    "data_protection": {
+      "correct": 10,
+      "total": 14,
+      "pct": 71.4
+    }
+  },
+  "results": [
+    {
+      "id": "cuad-agape",
+      "source": "cuad",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Organic Preparations Inc.",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "10 years",
+            "ten (10) years",
+            "ten years"
+          ],
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "England",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cuad-loha",
+      "source": "cuad",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": "5 years",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": [
+            "People's Republic of China",
+            "PRC"
+          ],
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cuad-datacall",
+      "source": "cuad",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Data Call Technologies, Inc.",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": "2006-04-01",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "initial_term",
+          "expected": "24 months",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 60,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "payment_terms",
+          "expected": 30,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "United States of America",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cuad-phoenix",
+      "source": "cuad",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Phoenix Satellite Television Company Limited",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": "2009-11-24",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "initial_term",
+          "expected": "5 years",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": false,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": [
+            "People's Republic of China",
+            "PRC"
+          ],
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cuad-xinhua",
+      "source": "cuad",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "China Economic Information Service of Xinhua News Agency",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": "2000-05-18",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "initial_term",
+          "expected": "20 years",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": false,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 1100000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Hong Kong",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cuad-ability",
+      "source": "cuad",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2019-11-01",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "initial_term",
+          "expected": "Through December 31, 2020",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 15,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Israel",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cuad-scoutcam",
+      "source": "cuad",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Idan Maimon",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": "2019-04-01",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "initial_term",
+          "expected": "12 months",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": false,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "New York",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cuad-opera",
+      "source": "cuad",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Mobimagic Co., Ltd.",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": "2019-04-01",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "initial_term",
+          "expected": "April 1, 2019 through March 30, 2020",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": false,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 45,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": "Aggregate fees and expenses owed for services under the agreement",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "governing_law",
+          "expected": "India",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "acme-clean",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Acme Services Ltd",
+          "actual": {
+            "value": "Acme Services Ltd",
+            "paragraph_id": "p-002",
+            "quote": "and Acme Services Ltd (Supplier)",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-01-01",
+          "actual": {
+            "value": "2026-01-01",
+            "paragraph_id": "p-002",
+            "quote": "Effective Date is January 1, 2026",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": "12 months",
+          "actual": {
+            "value": "12 months",
+            "paragraph_id": "p-004",
+            "quote": "initial term is 12 months",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": false,
+          "actual": {
+            "value": false,
+            "paragraph_id": "p-005",
+            "quote": "does not automatically renew",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 30,
+          "actual": {
+            "value": 30,
+            "paragraph_id": "p-009",
+            "quote": "(net 30)",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 48000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 48000,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-008",
+            "quote": "total contract value for the initial term is USD 48,000",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-014",
+            "quote": "Either party may terminate this agreement for convenience on 30 days' written notice",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": "USD 48,000",
+          "actual": {
+            "value": "USD 48,000; except fraud or willful misconduct",
+            "paragraph_id": "p-015",
+            "quote": "aggregate liability under this agreement is capped at USD 48,000, except for fraud or willful misconduct",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "New York",
+          "actual": {
+            "value": "New York",
+            "paragraph_id": "p-017",
+            "quote": "governed by the laws of the State of New York",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-016",
+            "quote": "This clause constitutes the parties' data processing agreement (DPA)",
+            "status": "found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "northwind-risky",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Northwind Ltd",
+          "actual": {
+            "value": "Northwind Ltd",
+            "paragraph_id": "p-002",
+            "quote": "and Northwind Ltd (Supplier)",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-01-01",
+          "actual": {
+            "value": "2026-01-01",
+            "paragraph_id": "p-002",
+            "quote": "Effective Date is January 1, 2026",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": "12 months",
+          "actual": {
+            "value": "12 months",
+            "paragraph_id": "p-004",
+            "quote": "initial term is 12 months",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-005",
+            "quote": "automatically renews",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 15,
+          "actual": {
+            "value": 15,
+            "paragraph_id": "p-005",
+            "quote": "notice at least 15 days before",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 90,
+          "actual": {
+            "value": 90,
+            "paragraph_id": "p-009",
+            "quote": "(net 90)",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 300000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 300000,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-008",
+            "quote": "total contract value for the initial term is USD 300,000",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-014",
+            "quote": "Either party may terminate this agreement for convenience on 30 days' written notice",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "New York",
+          "actual": {
+            "value": "New York",
+            "paragraph_id": "p-015",
+            "quote": "governed by the laws of the State of New York",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "brightwell-saas",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Brightwell Software Ltd",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-03-01",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "24 months",
+            "twenty-four (24) months"
+          ],
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": true,
+            "paragraph_id": "p-005",
+            "quote": "automatically renews",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 60,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "payment_terms",
+          "expected": 45,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 180000,
+            "currency": "GBP"
+          },
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "liability_cap",
+          "expected": [
+            "fees paid or payable",
+            "12 months",
+            "twelve (12) months"
+          ],
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "governing_law",
+          "expected": "England and Wales",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "copperfield-staffing",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Copperfield Staffing LLC",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-04-01",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "12 months",
+            "twelve (12) months"
+          ],
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": 10,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "payment_terms",
+          "expected": 30,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 96000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": {
+              "amount": 96000,
+              "currency": "USD"
+            },
+            "paragraph_id": "p-004",
+            "quote": "total contract value for the initial term is USD 96,000,",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "liability_cap",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "governing_law",
+          "expected": "Texas",
+          "actual": {
+            "value": "Texas",
+            "paragraph_id": "p-012",
+            "quote": "governed by the laws of the State of Texas",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "harborline-logistics",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Harborline Logistics Inc.",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": "2026-02-15",
+          "actual": {
+            "value": "2026-02-15",
+            "paragraph_id": "p-002",
+            "quote": "Effective Date is February 15, 2026",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "3 years",
+            "three (3) years"
+          ],
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": false,
+          "actual": {
+            "value": false,
+            "paragraph_id": "p-004",
+            "quote": "does not automatically renew",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 75,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "total_contract_value",
+          "expected": {
+            "amount": 1200000,
+            "currency": "USD"
+          },
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": false,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "liability_cap",
+          "expected": "USD 2,000,000",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "governing_law",
+          "expected": "Delaware",
+          "actual": {
+            "value": "Delaware",
+            "paragraph_id": "p-017",
+            "quote": "governed by the laws of the State of Delaware",
+            "status": "found"
+          },
+          "correct": true
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "meridian-facilities",
+      "source": "demo",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fields": [
+        {
+          "key": "vendor_name",
+          "expected": "Meridian Facilities Group Ltd.",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "effective_date",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "initial_term",
+          "expected": [
+            "36 months",
+            "thirty-six (36) months"
+          ],
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "auto_renewal",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "renewal_notice_days",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "payment_terms",
+          "expected": 30,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "total_contract_value",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "termination_for_convenience",
+          "expected": null,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": true
+        },
+        {
+          "key": "liability_cap",
+          "expected": "USD 500,000",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "governing_law",
+          "expected": "Ontario",
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        },
+        {
+          "key": "data_protection",
+          "expected": true,
+          "actual": {
+            "value": null,
+            "paragraph_id": null,
+            "quote": null,
+            "status": "not_found"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

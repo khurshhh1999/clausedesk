@@ -1,0 +1,38 @@
+[
+  {
+    "id": "acme-clean",
+    "file": "acme-clean.pdf",
+    "name": "Acme Services Ltd",
+    "summary": "Clean baseline: net 30, 12 months, every key term present"
+  },
+  {
+    "id": "northwind-risky",
+    "file": "northwind-risky.pdf",
+    "name": "Northwind Ltd",
+    "summary": "15-day renewal window, net 90, no liability cap, no DPA"
+  },
+  {
+    "id": "brightwell-saas",
+    "file": "brightwell-saas.pdf",
+    "name": "Brightwell Software Ltd",
+    "summary": "GBP subscription, 60-day renewal notice, DPA present"
+  },
+  {
+    "id": "copperfield-staffing",
+    "file": "copperfield-staffing.pdf",
+    "name": "Copperfield Staffing LLC",
+    "summary": "Confidentiality trap, short renewal notice, no liability cap"
+  },
+  {
+    "id": "harborline-logistics",
+    "file": "harborline-logistics.pdf",
+    "name": "Harborline Logistics Inc.",
+    "summary": "No auto-renewal, net 75, Delaware law, high spend approval"
+  },
+  {
+    "id": "meridian-facilities",
+    "file": "meridian-facilities.pdf",
+    "name": "Meridian Facilities Group Ltd.",
+    "summary": "Missing effective date, prompt injection in records clause"
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "id": "harborline-logistics",
+  "title": "LOGISTICS SERVICES AGREEMENT",
+  "parties": "Harborline Logistics Inc. / Demo Customer LLC",
+  "summary": "No auto-renewal, net 75, Delaware law, high spend approval",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Logistics Services Agreement is made between Harborline Logistics Inc., a Delaware corporation with principal offices in Newark, Delaware ('Harborline'), and Demo Customer LLC ('Customer'). Harborline Logistics Inc. is the vendor performing transportation and fulfillment services under this Agreement. The Effective Date is February 15, 2026. The parties may reference affiliated warehouses and carriers listed in Exhibit 1. Each signatory warrants that it has obtained necessary internal approvals to enter this Agreement."
+      },
+      {
+        "heading": "Scope of logistics services",
+        "body": "Harborline will provide domestic freight management, warehouse storage, pick-pack-ship operations, and shipment tracking for Customer products described in Exhibit 2. Services include standard carrier booking, label generation, and monthly performance reporting. Value-added services such as kitting, rework, or international customs brokerage require separate rate confirmations. Customer will provide accurate SKU data, weights, and hazmat classifications. Harborline may decline shipments that violate law or carrier rules after notifying Customer."
+      },
+      {
+        "heading": "Initial term and renewal",
+        "body": "The initial term of this Agreement is three (3) years beginning on the Effective Date. This Agreement does not automatically renew; any extension or renewal after the Initial Term requires a signed amendment executed by both parties. During the Initial Term, Harborline will allocate warehouse capacity according to the volume forecasts Customer submits quarterly. If forecasts deviate materially, the parties will meet to adjust staffing plans and storage fees in good faith."
+      },
+      {
+        "heading": "Rates and total contract value",
+        "body": "Customer will pay service fees per Exhibit 3 and pass-through carrier charges without markup unless otherwise stated. The total contract value for committed services over the Initial Term is USD 1,200,000, subject to true-up for actual volumes within agreed bands. Invoices are due net seventy-five (75) days from invoice date. Undisputed amounts not paid when due may incur a late charge of one and one-half percent per month. Customer must pay in U.S. dollars by ACH or wire to the account designated on the invoice."
+      },
+      {
+        "heading": "Volume forecasts",
+        "body": "Customer will provide a rolling twelve-week volume forecast by the first business day of each month. Harborline will staff and allocate dock capacity against the forecast and may apply surge rates from Exhibit 3 to volumes more than twenty percent above forecast. Forecasts are planning estimates and do not create purchase commitments. The parties will review forecast accuracy at each quarterly business review and agree corrective actions for repeated variances."
+      }
+    ],
+    [
+      {
+        "heading": "Service performance",
+        "body": "Harborline will use commercially reasonable efforts to meet outbound order accuracy of 99 percent and same-day ship cutoffs for orders received by 2:00 p.m. local warehouse time on business days. Carrier transit times are not guaranteed except where a premium service level is explicitly selected and paid for. Customer will monitor dashboards and raise disputes within fifteen business days of invoice or report delivery. Persistent performance gaps will be reviewed in quarterly business reviews with corrective action plans."
+      },
+      {
+        "heading": "Acceptance of facilities",
+        "body": "Customer may inspect Harborline warehouse facilities used for its inventory upon reasonable notice during business hours. Acceptance of a facility for storage occurs when Customer first delivers inventory or thirty days after Harborline provides access credentials for inventory reports, whichever is earlier. If Customer rejects a facility for documented safety or security deficiencies not cured within thirty days, it may relocate inventory without termination fees for that facility only."
+      },
+      {
+        "heading": "Termination rights",
+        "body": "Neither party may terminate this Agreement for convenience; termination is permitted only for material breach that remains uncured thirty (30) days after written notice specifying the breach in reasonable detail. Upon termination for breach, Customer will pay for services performed and storage through the effective termination date. Harborline will cooperate with an orderly inventory withdrawal plan. Accrued payment obligations and limitations of liability survive termination as stated elsewhere in this Agreement."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for liabilities that cannot be limited by applicable law, Harborline's aggregate liability for all claims arising under or related to this Agreement is capped at USD 2,000,000 in total. Neither party is liable for consequential, punitive, or lost profit damages. Carrier losses are governed by carrier terms unless Customer purchases supplemental cargo insurance through Harborline. Customer must file cargo claims within nine months of delivery or scheduled delivery date, whichever is earlier."
+      },
+      {
+        "heading": "Confidentiality",
+        "body": "Each party may learn operational, pricing, or customer information belonging to the other that is identified as confidential or should reasonably be treated as confidential. The receiving party will not disclose such information except to personnel and advisors who need it for performance and who are bound to confidentiality. General knowledge of logistics practices is not confidential. These obligations continue for two years after termination. Compelled disclosure requires notice where permitted by law."
+      }
+    ],
+    [
+      {
+        "heading": "Intellectual property and reports",
+        "body": "Harborline retains ownership of its software, routing models, and standard operating procedures. Customer retains ownership of its product designs, trademarks, and customer lists. Monthly reports and shipment data prepared for Customer may be used internally and shared with auditors. Harborline may anonymize operational data for benchmarking provided no Customer identity is disclosed. Customer grants Harborline a license to use its marks solely for labeling and shipping documents."
+      },
+      {
+        "heading": "Personal data in shipments",
+        "body": "Harborline processes personal data of shipment recipients, including names, addresses, and contact details, solely to deliver Customer orders and provide tracking notifications. Harborline will limit access, encrypt data in transit where supported by integrated systems, and notify Customer within a reasonable time if Harborline becomes aware of unauthorized access to such personal data. Customer represents it has lawful grounds to share recipient data. Additional data protection terms in Exhibit 4 apply if attached."
+      },
+      {
+        "heading": "Insurance and assignment",
+        "body": "Harborline will maintain warehouse legal liability, cargo, and workers compensation insurance at levels stated in Exhibit 5 and will name Customer as additional insured on general liability where customary. Neither party may assign this Agreement without prior written consent, except to a successor entity in a merger or acquisition of substantially all assets with assumption of obligations. Unauthorized assignment is void. Harborline may use bonded subcontractors for line-haul subject to equivalent service standards."
+      },
+      {
+        "heading": "Notices and governing law",
+        "body": "Formal notices must be delivered by certified mail or nationally recognized courier to the addresses on the signature page. Operational notices may be sent by email with confirmation. This Agreement constitutes the entire understanding between the parties regarding the services and supersedes prior proposals. Amendments must be signed by authorized representatives. This Agreement is governed by the laws of the State of Delaware, without regard to conflict of laws principles. Exclusive venue lies in state or federal courts located in Delaware."
+      },
+      {
+        "heading": "Execution",
+        "body": "Signature blocks below are placeholders for authorized officers when a real agreement is executed. This document is a fictional sample created for ClauseDesk software demonstration and automated contract review testing. It is not signed, not delivered, and not intended to create binding obligations. Harborline Logistics Inc. and Demo Customer LLC are fictitious parties used only as test data. Do not use this text for operational or legal reliance."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Harborline Logistics Inc.",
+    "effective_date": "2026-02-15",
+    "initial_term": [
+      "3 years",
+      "three (3) years"
+    ],
+    "auto_renewal": false,
+    "renewal_notice_days": null,
+    "payment_terms": 75,
+    "total_contract_value": {
+      "amount": 1200000,
+      "currency": "USD"
+    },
+    "termination_for_convenience": false,
+    "liability_cap": "USD 2,000,000",
+    "governing_law": "Delaware",
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause identifies Harborline Logistics Inc. as vendor.",
+    "effective_date": "Parties and effective date clause states February 15, 2026.",
+    "initial_term": "Initial term and renewal clause, three (3) years sentence.",
+    "auto_renewal": "Initial term and renewal clause explicitly states no automatic renewal.",
+    "renewal_notice_days": "Null because renewal requires signed amendment; no day-based non-renewal notice applies.",
+    "payment_terms": "Rates and total contract value clause, net seventy-five (75) days.",
+    "total_contract_value": "Rates and total contract value clause, USD 1,200,000 total contract value.",
+    "termination_for_convenience": "Termination rights clause excludes convenience termination.",
+    "liability_cap": "Limitation of liability clause, USD 2,000,000 aggregate cap.",
+    "governing_law": "Notices and governing law clause, State of Delaware.",
+    "data_protection": "Personal data in shipments clause covers recipient personal data processing."
+  }
+}

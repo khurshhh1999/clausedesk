@@ -1,0 +1,110 @@
+{
+  "id": "brightwell-saas",
+  "title": "SOFTWARE SUBSCRIPTION AGREEMENT",
+  "parties": "Brightwell Software Ltd / Demo Customer LLC",
+  "summary": "GBP subscription, 60-day renewal notice, DPA present",
+  "pages": [
+    [
+      {
+        "heading": "Parties and effective date",
+        "body": "This Software Subscription Agreement is entered into by Brightwell Software Ltd, a company registered in England and Wales ('Brightwell'), and Demo Customer LLC, a Delaware limited liability company ('Customer'). Brightwell provides the subscription platform described in Exhibit A. The supplier under this Agreement is Brightwell Software Ltd. This Agreement is effective as of March 1, 2026 (the 'Effective Date'). Each party represents that it has authority to bind its organization. References to 'Agreement' mean this document together with all exhibits and order forms incorporated by reference."
+      },
+      {
+        "heading": "Scope of subscription services",
+        "body": "Brightwell will provide Customer with access to the Brightwell Cloud Suite, including hosted application services, standard integrations, and user support during business hours in the United Kingdom. Customer may deploy the service to authorized users listed on its account. Brightwell may apply routine maintenance windows with at least five business days' notice except for emergency patches. Customer is responsible for its network connectivity, identity management, and compliance with applicable use policies. Custom development or professional services are out of scope unless ordered under a separate statement of work signed by both parties."
+      },
+      {
+        "heading": "Initial subscription term",
+        "body": "The initial term of this Agreement is twenty-four (24) months commencing on the Effective Date. During the Initial Term, Brightwell will make the subscribed modules available in accordance with the service description. Customer may add seats or modules through written order forms that Brightwell accepts. Pricing for add-ons will follow the rate card in Exhibit B unless otherwise agreed. If Customer exceeds licensed usage materially and persistently, the parties will negotiate a good-faith adjustment before Brightwell suspends access for non-compliance."
+      },
+      {
+        "heading": "Automatic renewal and notice",
+        "body": "Upon expiration of the Initial Term, this Agreement automatically renews for successive twelve (12) month renewal periods on the same terms unless either party gives written notice of non-renewal at least sixty (60) days before the end of the then-current term. Renewal fees may increase by no more than five percent over the prior period unless Brightwell provides sixty days' notice of a higher adjustment tied to documented cost increases. Either non-renewal notice must identify the account and the term end date to be effective."
+      },
+      {
+        "heading": "Fees, invoicing, and total value",
+        "body": "Customer will pay all fees set forth in Exhibit B. The total contract value for the Initial Term and stated renewals in Exhibit B is GBP 180,000 excluding VAT and approved expenses. Brightwell will invoice quarterly in advance unless another schedule is listed on an order form. Customer must pay undisputed invoices within forty-five (45) days of the invoice date. Late amounts may accrue interest at one percent per month or the maximum permitted by law, whichever is lower. All fees are non-refundable except where this Agreement expressly provides otherwise."
+      }
+    ],
+    [
+      {
+        "heading": "Service levels and support",
+        "body": "Brightwell targets monthly platform availability of 99.5 percent excluding scheduled maintenance and force majeure events. Support requests are triaged by severity with initial response targets of four business hours for critical issues and one business day for standard issues. Service credits for chronic availability failures are described in Exhibit C and are Customer's sole remedy for service level breaches. Customer will provide reasonable diagnostic information and a single point of contact for escalations. Brightwell may update support channels provided it maintains comparable access."
+      },
+      {
+        "heading": "Acceptance and changes",
+        "body": "Customer accepts the subscription service when Brightwell provisions production access or thirty days after delivery of credentials, whichever occurs first. Brightwell may deploy non-material updates, security fixes, and documentation changes without Customer consent. Material reductions in core functionality require thirty days' notice and a migration plan if Customer elects to terminate affected modules. Customer may reject a material adverse change by notifying Brightwell within thirty days and terminating the impacted modules without penalty."
+      },
+      {
+        "heading": "Termination for convenience",
+        "body": "Either party may terminate this Agreement for convenience upon ninety (90) days' prior written notice to the other party, effective at the end of a billing quarter. Termination for convenience does not relieve Customer of payment obligations for fees accrued before the effective date of termination. Upon termination, Brightwell will provide a data export in a standard format for thirty days. Sections intended to survive termination, including confidentiality, limitation of liability, and governing law, remain in effect."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Except for excluded matters listed below, each party's aggregate liability arising out of or related to this Agreement is capped at the fees paid or payable by Customer to Brightwell in the twelve (12) months immediately preceding the event giving rise to the claim. Neither party is liable for indirect, incidental, special, or consequential damages, including lost profits or lost data, even if advised of the possibility. Excluded matters include fraud, willful misconduct, death or personal injury caused by negligence, and breaches of confidentiality or data protection obligations to the extent such exclusions are not prohibited by law."
+      },
+      {
+        "heading": "Confidentiality",
+        "body": "Each party may receive non-public information from the other marked confidential or reasonably understood to be confidential. The receiving party will use such information only to perform under this Agreement and will protect it with at least the same care it uses for its own confidential materials. Disclosure is permitted to employees, contractors, and advisors with a need to know who are bound by similar obligations. Compelled disclosures require prompt notice where legally allowed. Confidentiality obligations survive for three years after termination, except trade secrets survive as long as they remain trade secrets."
+      }
+    ],
+    [
+      {
+        "heading": "Intellectual property",
+        "body": "Brightwell retains all rights in the platform, documentation, and pre-existing materials. Customer retains all rights in data it uploads and in its trademarks and content. Brightwell receives a limited license to host, process, and display Customer data solely to provide the services. Customer grants no ownership interest in its data. Feedback may be used by Brightwell without restriction or compensation. Customer will not reverse engineer the service except where statutory rights apply and Brightwell is notified in advance."
+      },
+      {
+        "heading": "Data protection and processing",
+        "body": "Where Brightwell processes personal data on Customer's behalf, Brightwell acts as processor and will implement appropriate technical and organizational measures, maintain a written list of subprocessors with thirty days' notice of material changes, and notify Customer without undue delay and within seventy-two (72) hours after becoming aware of a personal data breach affecting Customer data. Customer is controller and will provide lawful instructions. The parties will execute Brightwell's standard Data Processing Addendum upon request, which controls in the event of conflict on processing matters."
+      },
+      {
+        "heading": "Insurance and assignment",
+        "body": "Brightwell will maintain commercial general liability and cyber liability insurance with reputable carriers in amounts customary for software providers of similar size. Certificates are available upon reasonable request. Neither party may assign this Agreement without the other's consent, except to an affiliate or successor in a merger or sale of substantially all assets, provided the assignee assumes obligations in writing. Any prohibited assignment is void. Brightwell may use subcontractors who remain bound by equivalent obligations."
+      },
+      {
+        "heading": "Notices and entire agreement",
+        "body": "Notices must be in writing and sent to the addresses on the signature page or updated by written notice. Email is sufficient for operational notices if receipt is confirmed. This Agreement, including exhibits, is the entire agreement and supersedes prior discussions on the same subject. Amendments require signed writing by authorized representatives. This Agreement is governed by the laws of England and Wales, excluding conflict of law rules. The courts of London have exclusive jurisdiction, subject to either party's right to seek injunctive relief elsewhere."
+      },
+      {
+        "heading": "Execution",
+        "body": "The parties intend this document to record their commercial terms once fully executed by authorized signatories. This text is a fictional sample prepared for software demonstration and contract review testing only. It is not an executed agreement and creates no legal obligations between any persons or entities. Demo Customer LLC and Brightwell Software Ltd are placeholder names used solely in ClauseDesk sample data. Do not rely on this document for business, legal, or compliance decisions."
+      }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Brightwell Software Ltd",
+    "effective_date": "2026-03-01",
+    "initial_term": [
+      "24 months",
+      "twenty-four (24) months"
+    ],
+    "auto_renewal": true,
+    "renewal_notice_days": 60,
+    "payment_terms": 45,
+    "total_contract_value": {
+      "amount": 180000,
+      "currency": "GBP"
+    },
+    "termination_for_convenience": true,
+    "liability_cap": [
+      "fees paid or payable",
+      "12 months",
+      "twelve (12) months"
+    ],
+    "governing_law": "England and Wales",
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties and effective date clause, second sentence naming the supplier.",
+    "effective_date": "Parties and effective date clause, sentence stating March 1, 2026.",
+    "initial_term": "Initial subscription term clause, first sentence.",
+    "auto_renewal": "Automatic renewal and notice clause, first sentence on successive twelve-month renewals.",
+    "renewal_notice_days": "Automatic renewal and notice clause, sixty days' non-renewal notice.",
+    "payment_terms": "Fees, invoicing, and total value clause, forty-five days of invoice date.",
+    "total_contract_value": "Fees, invoicing, and total value clause, GBP 180,000 total contract value.",
+    "termination_for_convenience": "Termination for convenience clause, ninety days' written notice.",
+    "liability_cap": "Limitation of liability clause, cap tied to twelve months of fees.",
+    "governing_law": "Notices and entire agreement clause, laws of England and Wales.",
+    "data_protection": "Data protection and processing clause, processor obligations and 72-hour breach notification."
+  }
+}

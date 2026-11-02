@@ -1,0 +1,459 @@
+{
+  "description": "Hand-written reference values for each sample contract. null means the contract does not state the term explicitly (or it is ambiguous). Text fields may list accepted phrasings. Not reviewed by a lawyer.",
+  "contracts": [
+    {
+      "id": "cuad-agape",
+      "source": "cuad",
+      "fields": {
+        "vendor_name": "Organic Preparations Inc.",
+        "effective_date": null,
+        "initial_term": [
+          "10 years",
+          "ten (10) years",
+          "ten years"
+        ],
+        "auto_renewal": true,
+        "renewal_notice_days": null,
+        "payment_terms": null,
+        "total_contract_value": null,
+        "termination_for_convenience": true,
+        "liability_cap": null,
+        "governing_law": "England",
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "Cover and parties: Manufacturer is Organic Preparations Inc.",
+        "effective_date": "Section 1.1 commences on execution; signatures have different January 2018 dates. No unambiguous single effective date.",
+        "initial_term": "1.2 ten years",
+        "auto_renewal": "1.3 automatically renewed every ten years",
+        "renewal_notice_days": "1.3 six months, not an explicit number of days. Do not approximate months as 30 days.",
+        "payment_terms": "5.4 50% at order, 50% before shipment, not net days.",
+        "termination_for_convenience": "1.3 six months notice to terminate relations for any reason other than breach.",
+        "liability_cap": "Insurance is not an aggregate cap.",
+        "total_contract_value": "Schedule B minimum sales and a per-book price are not a committed total.",
+        "governing_law": "10 England",
+        "data_protection": "No personal-data processing provision."
+      }
+    },
+    {
+      "id": "cuad-loha",
+      "source": "cuad",
+      "fields": {
+        "vendor_name": null,
+        "effective_date": null,
+        "initial_term": "5 years",
+        "auto_renewal": null,
+        "renewal_notice_days": null,
+        "payment_terms": null,
+        "total_contract_value": null,
+        "termination_for_convenience": null,
+        "liability_cap": null,
+        "governing_law": [
+          "People's Republic of China",
+          "PRC"
+        ],
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "Seller field left blank. Entrusted purchasing agents are not the seller.",
+        "effective_date": "Dates and signatures are blank.",
+        "initial_term": "23 five years",
+        "payment_terms": "11 letter-of-credit milestones. 30 days is time to open credit, not invoice net days.",
+        "total_contract_value": "Amounts depend on future orders.",
+        "liability_cap": "18 late delivery penalty limit is not a general liability cap.",
+        "governing_law": "21 PRC law, otherwise CISG",
+        "auto_renewal": "No renewal provision.",
+        "termination_for_convenience": "Only conditional cancellation rights.",
+        "data_protection": "20 price confidentiality is not a DPA."
+      }
+    },
+    {
+      "id": "cuad-datacall",
+      "source": "cuad",
+      "fields": {
+        "vendor_name": "Data Call Technologies, Inc.",
+        "effective_date": "2006-04-01",
+        "initial_term": "24 months",
+        "auto_renewal": true,
+        "renewal_notice_days": 60,
+        "payment_terms": 30,
+        "total_contract_value": null,
+        "termination_for_convenience": null,
+        "liability_cap": null,
+        "governing_law": "United States of America",
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "Cover: Licensor",
+        "effective_date": "Appendix 2 §2.1 Contract start 04-01-06, distinct from March signature dates.",
+        "initial_term": "7.1 twenty-four months",
+        "auto_renewal": "7.1 automatic half-year extension",
+        "renewal_notice_days": "7.1 at least 60 days",
+        "payment_terms": "Appendix 2 §3.2 30 days after receipt of invoice",
+        "total_contract_value": "45% revenue share, no fixed total",
+        "termination_for_convenience": "7.2–7.3 breach only; end-of-term nonrenewal not convenience termination",
+        "governing_law": "10.1 United States of America (NYC is venue only)",
+        "data_protection": "6 confidentiality concerns commercial information, not personal-data safeguards."
+      }
+    },
+    {
+      "id": "cuad-phoenix",
+      "source": "cuad",
+      "fields": {
+        "vendor_name": "Phoenix Satellite Television Company Limited",
+        "effective_date": "2009-11-24",
+        "initial_term": "5 years",
+        "auto_renewal": false,
+        "renewal_notice_days": null,
+        "payment_terms": null,
+        "total_contract_value": null,
+        "termination_for_convenience": null,
+        "liability_cap": null,
+        "governing_law": [
+          "People's Republic of China",
+          "PRC"
+        ],
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "Parties and recital: Party A licenses content",
+        "effective_date": "Opening and execution as of November 24 2009; 9.1 upon signing/sealing",
+        "initial_term": "9.1 five years",
+        "auto_renewal": "9.2 requires written licensor confirmation and negotiation; not automatic",
+        "payment_terms": "4.1 refers to another agreement not supplied",
+        "total_contract_value": "No fixed total in supplied text",
+        "termination_for_convenience": "8.2 requires specified events, not unrestricted convenience",
+        "liability_cap": "Direct-loss exclusion is not a monetary aggregate cap",
+        "governing_law": "11.1 PRC law",
+        "data_protection": "6 concerns program content/business secrets, not personal-data processing."
+      }
+    },
+    {
+      "id": "cuad-xinhua",
+      "source": "cuad",
+      "fields": {
+        "vendor_name": "China Economic Information Service of Xinhua News Agency",
+        "effective_date": "2000-05-18",
+        "initial_term": "20 years",
+        "auto_renewal": false,
+        "renewal_notice_days": null,
+        "payment_terms": null,
+        "total_contract_value": {
+          "amount": 1100000,
+          "currency": "USD"
+        },
+        "termination_for_convenience": true,
+        "liability_cap": null,
+        "governing_law": "Hong Kong",
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "CEIS supplies and licenses content; XFN is licensee",
+        "effective_date": "Definition EFFECTIVE DATE means 18 May 2000, not the agreement date",
+        "initial_term": "7.1 twenty years",
+        "auto_renewal": "7.2 XFN written notice and mutually agreed consideration, not automatic",
+        "payment_terms": "4.1 five installments conditional on fundraising, no net-day term",
+        "total_contract_value": "4.1 US$1.1 million for twenty years",
+        "termination_for_convenience": "8.1 XFN may terminate on thirty days notice",
+        "governing_law": "16.1 Hong Kong",
+        "liability_cap": "6 indemnity without a cap",
+        "data_protection": "No personal-data protection clause."
+      }
+    },
+    {
+      "id": "cuad-ability",
+      "source": "cuad",
+      "fields": {
+        "vendor_name": null,
+        "effective_date": "2019-11-01",
+        "initial_term": "Through December 31, 2020",
+        "auto_renewal": null,
+        "renewal_notice_days": null,
+        "payment_terms": 15,
+        "total_contract_value": null,
+        "termination_for_convenience": true,
+        "liability_cap": null,
+        "governing_law": "Israel",
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "Provider is redacted [***]. Named companies are recipients.",
+        "effective_date": "Opening distinguishes entered October 1 from effective November 1",
+        "initial_term": "3.1 terminates December 31 2020",
+        "payment_terms": "2.2(b) fifteen days after invoice receipt",
+        "termination_for_convenience": "3.2 at any time without cause on 90 days notice",
+        "total_contract_value": "Actual costs plus 10% and expenses, no fixed total",
+        "governing_law": "7.2 domestic laws of Israel",
+        "data_protection": "4 confidentiality; no specific personal-data safeguards."
+      }
+    },
+    {
+      "id": "cuad-scoutcam",
+      "source": "cuad",
+      "fields": {
+        "vendor_name": "Idan Maimon",
+        "effective_date": "2019-04-01",
+        "initial_term": "12 months",
+        "auto_renewal": false,
+        "renewal_notice_days": null,
+        "payment_terms": null,
+        "total_contract_value": null,
+        "termination_for_convenience": true,
+        "liability_cap": null,
+        "governing_law": "New York",
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "Opening and §1: individual service provider Idan Maimon",
+        "effective_date": "§3 date hereof, opening April 1 2019",
+        "initial_term": "§3 minimum 12 months",
+        "auto_renewal": "Continuation upon mutual agreement, not automatic",
+        "payment_terms": "§4 monthly fee, no invoice due-day term",
+        "total_contract_value": "$1,000 monthly, not an explicit total; no multiplication",
+        "termination_for_convenience": "§5 resignation any time on 30 days; company discretionary termination after minimum period",
+        "governing_law": "§13 New York",
+        "data_protection": "§7 commercial confidentiality, not DPA."
+      }
+    },
+    {
+      "id": "cuad-opera",
+      "source": "cuad",
+      "fields": {
+        "vendor_name": "Mobimagic Co., Ltd.",
+        "effective_date": "2019-04-01",
+        "initial_term": "April 1, 2019 through March 30, 2020",
+        "auto_renewal": false,
+        "renewal_notice_days": null,
+        "payment_terms": 45,
+        "total_contract_value": null,
+        "termination_for_convenience": null,
+        "liability_cap": "Aggregate fees and expenses owed for services under the agreement",
+        "governing_law": "India",
+        "data_protection": true
+      },
+      "notes": {
+        "vendor_name": "Opening and 2.1 service provider Mobimagic",
+        "effective_date": "Opening April 1 2019",
+        "initial_term": "1.5 Service Period exact dates; do not silently correct March 30",
+        "auto_renewal": "9.1 renewal requires a writing executed by both parties",
+        "payment_terms": "6.1 45 days after invoice confirmation, not receipt",
+        "total_contract_value": "USD 970,000 per month is a rate, not stated total",
+        "liability_cap": "10.2 cumulative liability tied to fees/expenses; wording contains a double-negative drafting error, needs human review",
+        "governing_law": "10.3 India",
+        "data_protection": "4.7 explicit protection of personal data and technical/organizational safeguards",
+        "termination_for_convenience": "9.2–9.3 breach, law, insolvency only."
+      }
+    },
+    {
+      "id": "acme-clean",
+      "source": "demo",
+      "fields": {
+        "vendor_name": "Acme Services Ltd",
+        "effective_date": "2026-01-01",
+        "initial_term": "12 months",
+        "auto_renewal": false,
+        "renewal_notice_days": null,
+        "payment_terms": 30,
+        "total_contract_value": {
+          "amount": 48000,
+          "currency": "USD"
+        },
+        "termination_for_convenience": true,
+        "liability_cap": "USD 48,000",
+        "governing_law": "New York",
+        "data_protection": true
+      },
+      "notes": {
+        "vendor_name": "Parties clause names Acme Services Ltd as Supplier.",
+        "effective_date": "Parties clause: January 1, 2026.",
+        "initial_term": "Initial term clause: 12 months.",
+        "auto_renewal": "Renewal clause explicitly says it does not automatically renew.",
+        "renewal_notice_days": "No auto-renewal, so no notice window.",
+        "payment_terms": "Payment terms clause: net 30.",
+        "total_contract_value": "Fees clause: USD 48,000.",
+        "termination_for_convenience": "Either party on 30 days' notice.",
+        "liability_cap": "Aggregate cap of USD 48,000.",
+        "governing_law": "State of New York.",
+        "data_protection": "Data protection clause constitutes the DPA."
+      }
+    },
+    {
+      "id": "northwind-risky",
+      "source": "demo",
+      "fields": {
+        "vendor_name": "Northwind Ltd",
+        "effective_date": "2026-01-01",
+        "initial_term": "12 months",
+        "auto_renewal": true,
+        "renewal_notice_days": 15,
+        "payment_terms": 90,
+        "total_contract_value": {
+          "amount": 300000,
+          "currency": "USD"
+        },
+        "termination_for_convenience": true,
+        "liability_cap": null,
+        "governing_law": "New York",
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "Parties clause names Northwind Ltd as Supplier.",
+        "effective_date": "Parties clause: January 1, 2026.",
+        "initial_term": "Initial term clause: 12 months.",
+        "auto_renewal": "Renewal clause: automatically renews.",
+        "renewal_notice_days": "Renewal clause: at least 15 days.",
+        "payment_terms": "Payment terms clause: net 90.",
+        "total_contract_value": "Fees clause: USD 300,000.",
+        "termination_for_convenience": "Either party on 30 days' notice.",
+        "liability_cap": "No limitation of liability clause.",
+        "governing_law": "State of New York.",
+        "data_protection": "Only a confidentiality clause; no personal-data clause."
+      }
+    },
+    {
+      "id": "brightwell-saas",
+      "source": "demo",
+      "fields": {
+        "vendor_name": "Brightwell Software Ltd",
+        "effective_date": "2026-03-01",
+        "initial_term": [
+          "24 months",
+          "twenty-four (24) months"
+        ],
+        "auto_renewal": true,
+        "renewal_notice_days": 60,
+        "payment_terms": 45,
+        "total_contract_value": {
+          "amount": 180000,
+          "currency": "GBP"
+        },
+        "termination_for_convenience": true,
+        "liability_cap": [
+          "fees paid or payable",
+          "12 months",
+          "twelve (12) months"
+        ],
+        "governing_law": "England and Wales",
+        "data_protection": true
+      },
+      "notes": {
+        "vendor_name": "Parties and effective date clause, second sentence naming the supplier.",
+        "effective_date": "Parties and effective date clause, sentence stating March 1, 2026.",
+        "initial_term": "Initial subscription term clause, first sentence.",
+        "auto_renewal": "Automatic renewal and notice clause, first sentence on successive twelve-month renewals.",
+        "renewal_notice_days": "Automatic renewal and notice clause, sixty days' non-renewal notice.",
+        "payment_terms": "Fees, invoicing, and total value clause, forty-five days of invoice date.",
+        "total_contract_value": "Fees, invoicing, and total value clause, GBP 180,000 total contract value.",
+        "termination_for_convenience": "Termination for convenience clause, ninety days' written notice.",
+        "liability_cap": "Limitation of liability clause, cap tied to twelve months of fees.",
+        "governing_law": "Notices and entire agreement clause, laws of England and Wales.",
+        "data_protection": "Data protection and processing clause, processor obligations and 72-hour breach notification."
+      }
+    },
+    {
+      "id": "copperfield-staffing",
+      "source": "demo",
+      "fields": {
+        "vendor_name": "Copperfield Staffing LLC",
+        "effective_date": "2026-04-01",
+        "initial_term": [
+          "12 months",
+          "twelve (12) months"
+        ],
+        "auto_renewal": true,
+        "renewal_notice_days": 10,
+        "payment_terms": 30,
+        "total_contract_value": {
+          "amount": 96000,
+          "currency": "USD"
+        },
+        "termination_for_convenience": true,
+        "liability_cap": null,
+        "governing_law": "Texas",
+        "data_protection": null
+      },
+      "notes": {
+        "vendor_name": "Parties and effective date clause names Copperfield Staffing LLC as Supplier.",
+        "effective_date": "Parties and effective date states Effective Date is April 1, 2026.",
+        "initial_term": "Initial term and renewal states initial term is twelve (12) months.",
+        "auto_renewal": "Initial term and renewal describes automatic renewal for successive twelve-month periods.",
+        "renewal_notice_days": "Initial term and renewal requires non-renewal notice at least ten (10) days before term end.",
+        "payment_terms": "Fees, invoicing, and total value requires payment within thirty (30) days of invoice date.",
+        "total_contract_value": "Fees, invoicing, and total value states total contract value for initial term is USD 96,000.",
+        "termination_for_convenience": "Termination for convenience grants Customer termination on fifteen (15) days' prior written notice.",
+        "liability_cap": "Limitation of damages excludes consequential damages only; no aggregate monetary cap is stated.",
+        "governing_law": "Governing law and disputes specifies laws of the State of Texas.",
+        "data_protection": "Confidentiality clause only; no personal data processing or DPA language appears."
+      }
+    },
+    {
+      "id": "harborline-logistics",
+      "source": "demo",
+      "fields": {
+        "vendor_name": "Harborline Logistics Inc.",
+        "effective_date": "2026-02-15",
+        "initial_term": [
+          "3 years",
+          "three (3) years"
+        ],
+        "auto_renewal": false,
+        "renewal_notice_days": null,
+        "payment_terms": 75,
+        "total_contract_value": {
+          "amount": 1200000,
+          "currency": "USD"
+        },
+        "termination_for_convenience": false,
+        "liability_cap": "USD 2,000,000",
+        "governing_law": "Delaware",
+        "data_protection": true
+      },
+      "notes": {
+        "vendor_name": "Parties and effective date clause identifies Harborline Logistics Inc. as vendor.",
+        "effective_date": "Parties and effective date clause states February 15, 2026.",
+        "initial_term": "Initial term and renewal clause, three (3) years sentence.",
+        "auto_renewal": "Initial term and renewal clause explicitly states no automatic renewal.",
+        "renewal_notice_days": "Null because renewal requires signed amendment; no day-based non-renewal notice applies.",
+        "payment_terms": "Rates and total contract value clause, net seventy-five (75) days.",
+        "total_contract_value": "Rates and total contract value clause, USD 1,200,000 total contract value.",
+        "termination_for_convenience": "Termination rights clause excludes convenience termination.",
+        "liability_cap": "Limitation of liability clause, USD 2,000,000 aggregate cap.",
+        "governing_law": "Notices and governing law clause, State of Delaware.",
+        "data_protection": "Personal data in shipments clause covers recipient personal data processing."
+      }
+    },
+    {
+      "id": "meridian-facilities",
+      "source": "demo",
+      "fields": {
+        "vendor_name": "Meridian Facilities Group Ltd.",
+        "effective_date": null,
+        "initial_term": [
+          "36 months",
+          "thirty-six (36) months"
+        ],
+        "auto_renewal": true,
+        "renewal_notice_days": null,
+        "payment_terms": 30,
+        "total_contract_value": null,
+        "termination_for_convenience": null,
+        "liability_cap": "USD 500,000",
+        "governing_law": "Ontario",
+        "data_protection": true
+      },
+      "notes": {
+        "vendor_name": "Parties and background identifies Meridian Facilities Group Ltd. as Service Provider.",
+        "effective_date": "Execution: effective on a future written onboarding confirmation; signature dates differ and no effective date is stated.",
+        "initial_term": "Term and automatic extension states initial term is thirty-six (36) months.",
+        "auto_renewal": "Term and automatic extension provides for automatic twelve-month renewal periods.",
+        "renewal_notice_days": "Non-renewal notice is expressed as three months, not days.",
+        "payment_terms": "Fees and payment requires payment within 30 days of receipt of a valid invoice.",
+        "total_contract_value": "Fees and payment states monthly fee only; no explicit total contract value.",
+        "termination_for_convenience": "No clause grants or excludes termination for convenience.",
+        "liability_cap": "Limitation of liability states aggregate liability shall not exceed USD 500,000.",
+        "governing_law": "Governing law specifies Province of Ontario.",
+        "data_protection": "Personal data and security clause covers processing and Schedule 5 DPA."
+      }
+    }
+  ]
+}

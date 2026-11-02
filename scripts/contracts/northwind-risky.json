@@ -1,0 +1,56 @@
+{
+  "id": "northwind-risky",
+  "title": "SERVICES AGREEMENT",
+  "parties": "Northwind Ltd / Demo Customer LLC",
+  "summary": "15-day renewal window, net 90, no liability cap, no DPA",
+  "pages": [
+    [
+      { "heading": "Parties and effective date", "body": "This Services Agreement is between Demo Customer LLC (Customer) and Northwind Ltd (Supplier). The Effective Date is January 1, 2026." },
+      { "heading": "Scope of services", "body": "The Supplier will provide procurement reporting, vendor catalog maintenance and monthly operational support to the Customer. Deliverables include a monthly expenditure report, a reconciled vendor register and a service review. No transfer of intellectual property is implied by delivery." },
+      { "heading": "Initial term", "body": "The initial term is 12 months, beginning on the Effective Date and ending on December 31, 2026." },
+      { "heading": "Renewal", "body": "This agreement automatically renews for successive 12-month terms unless either party gives written notice at least 15 days before the end of the then-current term." },
+      { "heading": "Service delivery", "body": "The parties will appoint a service manager within ten business days of the Effective Date. Requests will be recorded in a shared service register. The Supplier will acknowledge ordinary support requests within two business days and will provide a monthly status report identifying outstanding work." }
+    ],
+    [
+      { "heading": "Fees and total value", "body": "The total contract value for the initial term is USD 300,000. This amount includes all recurring service fees. Taxes imposed by law are additional. No other charges may be incurred without the Customer's written consent." },
+      { "heading": "Payment terms", "body": "Invoices are payable within 90 days of receipt (net 90). The Supplier will invoice monthly in equal installments. Disputed amounts must be identified in writing; undisputed amounts remain payable on time." },
+      { "heading": "Acceptance", "body": "The Customer may inspect each deliverable for ten business days following delivery. Any material deficiency must be described in writing. The Supplier will correct confirmed deficiencies within a reasonable agreed period. Acceptance does not waive rights relating to a concealed defect." },
+      { "heading": "Confidential information", "body": "Each party will protect the other party's non-public business information using reasonable care. Information already public, independently developed or lawfully received from another source is excluded. Permitted disclosures required by law must be limited to what is legally required, with advance notice where lawful." },
+      { "heading": "Ownership", "body": "Each party retains its pre-existing intellectual property. The Customer receives a non-exclusive right to use deliverables internally during the term. The Supplier may not use the Customer's name or logo for publicity without prior written consent." }
+    ],
+    [
+      { "heading": "Termination for convenience", "body": "Either party may terminate this agreement for convenience on 30 days' written notice. The Customer shall pay only for services delivered before the termination date. The Supplier will provide reasonable transition assistance for ten business days." },
+      { "heading": "Governing law", "body": "This agreement is governed by the laws of the State of New York, excluding its conflict-of-laws rules." },
+      { "heading": "Operational continuity", "body": "The Supplier will maintain documented backup procedures and an escalation contact for material interruptions. The parties will meet promptly to agree a recovery plan if a critical deliverable is delayed. Neither party may assign this agreement without the other party's written consent." },
+      { "heading": "Notices", "body": "Formal notices must be sent by courier or by email with written acknowledgment to the designated service manager. An operational support ticket is not a formal notice. A party may update its notice address by written notice to the other party." },
+      { "heading": "Entire agreement", "body": "This agreement constitutes the entire agreement concerning the services. Amendments must be in writing and signed by both parties. If a provision is unenforceable, the remaining provisions remain in effect. A waiver on one occasion does not constitute a continuing waiver." },
+      { "heading": "Execution", "body": "Signed for the Customer: Demo Customer LLC, authorized representative. Signed for the Supplier: authorized representative. This is a fictional sample for software demonstration; it is not an executed agreement." }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Northwind Ltd",
+    "effective_date": "2026-01-01",
+    "initial_term": "12 months",
+    "auto_renewal": true,
+    "renewal_notice_days": 15,
+    "payment_terms": 90,
+    "total_contract_value": { "amount": 300000, "currency": "USD" },
+    "termination_for_convenience": true,
+    "liability_cap": null,
+    "governing_law": "New York",
+    "data_protection": null
+  },
+  "notes": {
+    "vendor_name": "Parties clause names Northwind Ltd as Supplier.",
+    "effective_date": "Parties clause: January 1, 2026.",
+    "initial_term": "Initial term clause: 12 months.",
+    "auto_renewal": "Renewal clause: automatically renews.",
+    "renewal_notice_days": "Renewal clause: at least 15 days.",
+    "payment_terms": "Payment terms clause: net 90.",
+    "total_contract_value": "Fees clause: USD 300,000.",
+    "termination_for_convenience": "Either party on 30 days' notice.",
+    "liability_cap": "No limitation of liability clause.",
+    "governing_law": "State of New York.",
+    "data_protection": "Only a confidentiality clause; no personal-data clause."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "acme-clean",
+  "title": "SERVICES AGREEMENT",
+  "parties": "Acme Services Ltd / Demo Customer LLC",
+  "summary": "Clean baseline: net 30, 12 months, every key term present",
+  "pages": [
+    [
+      { "heading": "Parties and effective date", "body": "This Services Agreement is between Demo Customer LLC (Customer) and Acme Services Ltd (Supplier). The Effective Date is January 1, 2026." },
+      { "heading": "Scope of services", "body": "The Supplier will provide procurement reporting, vendor catalog maintenance and monthly operational support to the Customer. Deliverables include a monthly expenditure report, a reconciled vendor register and a service review. No transfer of intellectual property is implied by delivery." },
+      { "heading": "Initial term", "body": "The initial term is 12 months, beginning on the Effective Date and ending on December 31, 2026." },
+      { "heading": "Renewal", "body": "This agreement does not automatically renew. Any renewal requires a new written agreement signed by both parties." },
+      { "heading": "Service delivery", "body": "The parties will appoint a service manager within ten business days of the Effective Date. Requests will be recorded in a shared service register. The Supplier will acknowledge ordinary support requests within two business days and will provide a monthly status report identifying outstanding work." }
+    ],
+    [
+      { "heading": "Fees and total value", "body": "The total contract value for the initial term is USD 48,000. This amount includes all recurring service fees. Taxes imposed by law are additional. No other charges may be incurred without the Customer's written consent." },
+      { "heading": "Payment terms", "body": "Invoices are payable within 30 days of receipt (net 30). The Supplier will invoice monthly in equal installments. Disputed amounts must be identified in writing; undisputed amounts remain payable on time." },
+      { "heading": "Acceptance", "body": "The Customer may inspect each deliverable for ten business days following delivery. Any material deficiency must be described in writing. The Supplier will correct confirmed deficiencies within a reasonable agreed period. Acceptance does not waive rights relating to a concealed defect." },
+      { "heading": "Confidential information", "body": "Each party will protect the other party's non-public business information using reasonable care. Information already public, independently developed or lawfully received from another source is excluded. Permitted disclosures required by law must be limited to what is legally required, with advance notice where lawful." },
+      { "heading": "Ownership", "body": "Each party retains its pre-existing intellectual property. The Customer receives a non-exclusive right to use deliverables internally during the term. The Supplier may not use the Customer's name or logo for publicity without prior written consent." }
+    ],
+    [
+      { "heading": "Termination for convenience", "body": "Either party may terminate this agreement for convenience on 30 days' written notice. The Customer shall pay only for services delivered before the termination date. The Supplier will provide reasonable transition assistance for ten business days." },
+      { "heading": "Limitation of liability", "body": "Each party's aggregate liability under this agreement is capped at USD 48,000, except for fraud or willful misconduct." },
+      { "heading": "Data protection", "body": "The Supplier shall process personal data only on the Customer's documented instructions, maintain appropriate technical and organizational safeguards, notify the Customer of a personal data breach within 48 hours, and delete or return personal data at termination. This clause constitutes the parties' data processing agreement (DPA)." },
+      { "heading": "Governing law", "body": "This agreement is governed by the laws of the State of New York, excluding its conflict-of-laws rules." },
+      { "heading": "Notices", "body": "Formal notices must be sent by courier or by email with written acknowledgment to the designated service manager. An operational support ticket is not a formal notice. A party may update its notice address by written notice to the other party." },
+      { "heading": "Execution", "body": "Signed for the Customer: Demo Customer LLC, authorized representative. Signed for the Supplier: authorized representative. This is a fictional sample for software demonstration; it is not an executed agreement." }
+    ]
+  ],
+  "labels": {
+    "vendor_name": "Acme Services Ltd",
+    "effective_date": "2026-01-01",
+    "initial_term": "12 months",
+    "auto_renewal": false,
+    "renewal_notice_days": null,
+    "payment_terms": 30,
+    "total_contract_value": { "amount": 48000, "currency": "USD" },
+    "termination_for_convenience": true,
+    "liability_cap": "USD 48,000",
+    "governing_law": "New York",
+    "data_protection": true
+  },
+  "notes": {
+    "vendor_name": "Parties clause names Acme Services Ltd as Supplier.",
+    "effective_date": "Parties clause: January 1, 2026.",
+    "initial_term": "Initial term clause: 12 months.",
+    "auto_renewal": "Renewal clause explicitly says it does not automatically renew.",
+    "renewal_notice_days": "No auto-renewal, so no notice window.",
+    "payment_terms": "Payment terms clause: net 30.",
+    "total_contract_value": "Fees clause: USD 48,000.",
+    "termination_for_convenience": "Either party on 30 days' notice.",
+    "liability_cap": "Aggregate cap of USD 48,000.",
+    "governing_law": "State of New York.",
+    "data_protection": "Data protection clause constitutes the DPA."
+  }
+}
